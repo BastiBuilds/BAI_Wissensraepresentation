@@ -7,8 +7,12 @@
 % t_Preisbereich: 20 bis 1000
 
 % ist verfügbar: true/false
+valid_verfuegbar(true).
+valid_verfuegbar(false).
 
 % Soll kompatibel sein mit weiteren Sets: true/false
+valid_kompatibel(true).
+valid_kompatibel(false).
 
 % t_Bautechnik
 
@@ -19,8 +23,12 @@
 % Bauzeit in h: 1 bis 20
 
 % Komplexe Bausteine: true/false
+valid_komplexe_bausteine(true).
+valid_komplexe_bausteine(false).
 
 % Soll Lizenz haben: true/false
+valid_lizenz_haben(true).
+valid_lizenz_haben(false).
 
 % Zielgruppe
 valid_zielgruppe("Kleinkinder").
