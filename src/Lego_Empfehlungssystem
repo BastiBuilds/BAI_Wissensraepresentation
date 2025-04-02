@@ -9,7 +9,8 @@
 % ist verfügbar: true/false
 verfuegbar(true).
 verfuegbar(false).
-
+verfuegbar(false).
+  
 % Soll kompatibel sein mit weiteren Sets: true/false
 kompatibel(true).
 kompatibel(false).
