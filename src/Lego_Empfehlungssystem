@@ -7,12 +7,12 @@
 % t_Preisbereich: 20 bis 1000
 
 % ist verfügbar: true/false
-valid_verfuegbar(true).
-valid_verfuegbar(false).
+verfuegbar(true).
+verfuegbar(false).
 
 % Soll kompatibel sein mit weiteren Sets: true/false
-valid_kompatibel(true).
-valid_kompatibel(false).
+kompatibel(true).
+kompatibel(false).
 
 % t_Bautechnik
 
@@ -23,33 +23,33 @@ valid_kompatibel(false).
 % Bauzeit in h: 1 bis 20
 
 % Komplexe Bausteine: true/false
-valid_komplexe_bausteine(true).
-valid_komplexe_bausteine(false).
+komplexe_bausteine(true).
+komplexe_bausteine(false).
 
 % Soll Lizenz haben: true/false
-valid_lizenz_haben(true).
-valid_lizenz_haben(false).
+lizenz_haben(true).
+lizenz_haben(false).
 
 % Zielgruppe
-valid_zielgruppe("Kleinkinder").
+zielgruppe("Kleinkinder").
 
 % Erfahrung
-valid_erfahrung("Anfänger").
+erfahrung("Anfänger").
 
 % Schwierigkeitsgrad
-valid_schwierigkeitsgrad("Einfach").
+schwierigkeitsgrad("Einfach").
 
 % Themenwelt
-valid_themenwelt("Disney").
+themenwelt("Disney").
 
 % Bautechnik
-valid_bautechnik("Anleitung").
+bautechnik("Anleitung").
 
 % Interessen
-valid_interessen("Fahrzeuge").
+interessen("Fahrzeuge").
 
 % LEGO Sets
-valid_lego_set("Kreativer Reisekoffer").
+lego_set("Kreativer Reisekoffer").
 
 % ---Entscheidungslogik ---
 
