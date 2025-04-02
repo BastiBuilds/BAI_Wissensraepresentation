@@ -3,18 +3,25 @@
 % ---Datentypen---
 
 % Zielgruppe
+valid_zielgruppe("Kleinkinder").
 
 % Erfahrung
+valid_erfahrung("Anfänger").
 
 % Schwierigkeitsgrad
+valid_schwierigkeitsgrad("Einfach").
 
 % Themenwelt
+valid_themenwelt("Disney").
 
 % Bautechnik
+valid_bautechnik("Anleitung").
 
 % Interessen
+valid_interessen("Fahrzeuge").
 
 % LEGO Sets
+valid_lego_set("Kreativer Reisekoffer").
 
 % ---Entscheidungslogik ---
 
