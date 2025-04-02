@@ -5,7 +5,7 @@
 % t_Alter: 1.5 bis 100 Jahre
 
 % t_Preisbereich: 20 bis 1000
-
+   
 % ist verfügbar: true/false
 verfuegbar(true).
 verfuegbar(false).
