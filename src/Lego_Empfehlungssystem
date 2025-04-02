@@ -2,6 +2,26 @@
 
 % ---Datentypen---
 
+% t_Alter: 1.5 bis 100 Jahre
+
+% t_Preisbereich: 20 bis 1000
+
+% ist verfügbar: true/false
+
+% Soll kompatibel sein mit weiteren Sets: true/false
+
+% t_Bautechnik
+
+% t_AnzahlgebauteLegosets: 0 bis 1000
+
+% t_Bauteilmenge: 0 bis 12000
+
+% Bauzeit in h: 1 bis 20
+
+% Komplexe Bausteine: true/false
+
+% Soll Lizenz haben: true/false
+
 % Zielgruppe
 valid_zielgruppe("Kleinkinder").
 
