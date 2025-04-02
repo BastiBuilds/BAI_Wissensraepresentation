@@ -5,12 +5,6 @@
 % t_Alter: 1.5 bis 100 Jahre
 
 % t_Preisbereich: 20 bis 1000
-   
-% ist verfügbar: true/false
-verfuegbar(true).
-verfuegbar(false).
-verfuegbar(true).
-verfuegbar(false).
        
 % Soll kompatibel sein mit weiteren Sets: true/false
 kompatibel(true).
