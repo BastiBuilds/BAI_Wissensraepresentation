@@ -3,6 +3,7 @@
 % ---Datentypen---
 
 % t_Alter: 1.5 bis 100 Jahre
+alter(Alter) :- Alter >= 1.5, Alter =< 100.
 
 % t_Preisbereich: 20 bis 1000
        
