@@ -14,7 +14,7 @@ kompatibel(false).
 bautechnik("Anleitung").
 bautechnik("Eigenkreation").
 bautechnik("Modular").
-
+   
 % t_AnzahlgebauteLegosets: 0 bis 1000
 
 % t_Bauteilmenge: 0 bis 12000
