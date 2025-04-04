@@ -18,6 +18,7 @@ bautechnik("Eigenkreation").
 bautechnik("Modular").
    
 % t_AnzahlgebauteLegosets: 0 bis 1000
+anzahl_gebaute_legosets(Anzahl) :- Anzahl >= 0, Anzahl =< 1000.
 
 % t_Bauteilmenge: 0 bis 12000
 
