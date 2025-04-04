@@ -6,7 +6,8 @@
 alter(Alter) :- Alter >= 1.5, Alter =< 100.
 
 % t_Preisbereich: 20 bis 1000
-       
+preis(Preis) :- Preis >= 20, Preis =< 1000.
+
 % Soll kompatibel sein mit weiteren Sets: true/false
 kompatibel(true).
 kompatibel(false).
