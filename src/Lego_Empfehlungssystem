@@ -80,7 +80,7 @@ interessen("Tier/Natur").
 interessen("Abenteuer").
 interessen("Historische Epochen").
 interessen("Fantasy").
-interessen("Simples Spielen"). 
+interessen("Simples Spielen").   
 
 % LEGO Sets
 lego_set("Kreativer Reisekoffer").
