@@ -168,11 +168,11 @@ themenwelt_empfehlung("Fantasy", false, "Ninjago").
 themenwelt_empfehlung("Fantasy", true, "Harry Potter").
 themenwelt_empfehlung("Simples Spielen", _, "Classic").
 
-empfehle_themenwelt(Interesse, Empfohlen) :-
+empfehle_themenwelt(Interesse, Lizenz, Empfohlen) :-
     interessen(Interesse),
     soll_lizenz_haben(Lizenz),
 
-    % Anhand von Interesses und Lizenzstatus gibts die jeweilige Empfehlung
+    % Anhand von Interesse und Lizenzstatus gibts die jeweilige Empfehlung
     themenwelt_empfehlung(Interesse, Lizenz, Empfohlen),
     themenwelt(Empfohlen).
 
