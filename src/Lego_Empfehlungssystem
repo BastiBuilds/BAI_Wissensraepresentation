@@ -176,6 +176,5 @@ empfehle_themenwelt(Interesse, Empfohlen) :-
     themenwelt_empfehlung(Interesse, Lizenz, Empfohlen),
     themenwelt(Empfohlen).
 
-% LEGO Sets
+% ---Hauptprogramm (Lego Set Evaluation)---
 
-% ---Hauptprogramm---
