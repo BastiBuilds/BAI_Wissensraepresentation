@@ -31,8 +31,8 @@ komplexe_bausteine(true).
 komplexe_bausteine(false).
 
 % Soll Lizenz haben: true/false
-lizenz_haben(true).
-lizenz_haben(false).
+soll_lizenz_haben(true).
+soll_lizenz_haben(false).
 
 % Zielgruppe
 zielgruppe("Kleinkinder").
@@ -60,7 +60,6 @@ themenwelt("Marvel").
 themenwelt("Harry Potter"). 
 themenwelt("Ninjago").
 themenwelt("Star Wars").
-themenwelt("Indiana Jones").
 themenwelt("Minecraft").
 themenwelt("City"). 
 themenwelt("Technik").
@@ -145,43 +144,37 @@ lego_set("Lloyds und Arins Training-Mechs").
 % Themenwelt
 themenwelt_empfehlung("Fahrzeuge", false, "Technik").
 themenwelt_empfehlung("Fahrzeuge", true,  "Star Wars").
-
 themenwelt_empfehlung("Disney", false, "Friends").
 themenwelt_empfehlung("Disney", true,  "Disney").
-
 themenwelt_empfehlung("Superheroes", false, "Ninjago").
 themenwelt_empfehlung("Superheroes", true,  "Marvel").
-
 themenwelt_empfehlung("Architektur", false, "Architektur").
 themenwelt_empfehlung("Architektur", true,  "Harry Potter").
-
 themenwelt_empfehlung("Sci-Fi", false, "Ninjago").
 themenwelt_empfehlung("Sci-Fi", true,  "Star Wars").
-
 themenwelt_empfehlung("Kinderserie / Film", false, "Ninjago").
 themenwelt_empfehlung("Kinderserie / Film", true,  "Disney").
-
 themenwelt_empfehlung("Ninjas", _, "Ninjago").
-
 themenwelt_empfehlung("Gaming", false, "Creator").
 themenwelt_empfehlung("Gaming", true, "Minecraft").
-
 themenwelt_empfehlung("Sport", _, "City").
-
 themenwelt_empfehlung("Tier/Natur", false, "Friends").
 themenwelt_empfehlung("Tier/Natur", true, "Minecraft").
-
 themenwelt_empfehlung("Abenteuer", false, "Ninjago").
-themenwelt_empfehlung("Abenteuer", true, "Indiana Jones").
-
+themenwelt_empfehlung("Abenteuer", true, "Star Wars").
 themenwelt_empfehlung("Historische Epochen", false, "Architektur").
-themenwelt_empfehlung("Historische Epochen", true, "Indiana Jones").
-
+themenwelt_empfehlung("Historische Epochen", true, "Disney").
 themenwelt_empfehlung("Fantasy", false, "Ninjago").
 themenwelt_empfehlung("Fantasy", true, "Harry Potter").
-
 themenwelt_empfehlung("Simples Spielen", _, "Classic").
 
+empfehle_themenwelt(Interesse, Empfohlen) :-
+    interessen(Interesse),
+    soll_lizenz_haben(Lizenz),
+
+    % Anhand von Interesses und Lizenzstatus gibts die jeweilige Empfehlung
+    themenwelt_empfehlung(Interesse, Lizenz, Empfohlen),
+    themenwelt(Empfohlen).
 
 % LEGO Sets
 
