@@ -21,8 +21,10 @@ bautechnik("Modular").
 anzahl_gebaute_legosets(Anzahl) :- Anzahl >= 0, Anzahl =< 1000.
 
 % t_Bauteilmenge: 0 bis 12000
+bauteilmenge(Menge) :- Menge >= 0, Menge =< 12000.
 
 % Bauzeit in h: 1 bis 20
+bauzeit(Zeit) :- Zeit >= 1, Zeit =< 20.
 
 % Komplexe Bausteine: true/false
 komplexe_bausteine(true).
