@@ -136,8 +136,50 @@ lego_set("Lloyds und Arins Training-Mechs").
 % ---Entscheidungslogik ---
 
 % Zielgruppe
+zielgruppe(Alter, "Anfänger", "Kinder - Einsteiger") :-
+    Alter >= 4, Alter < 12.
+zielgruppe(Alter, Erfahrung, "Kinder - Fortgeschritten") :-
+    Alter >= 4, Alter < 12,
+    (Erfahrung = "Fortgeschritten"; Erfahrung = "Expert").
+zielgruppe(Alter, "Anfänger", "Jugendliche - Einsteiger") :-
+    Alter >= 12, Alter < 18.
+zielgruppe(Alter, Erfahrung, "Jugendliche - Fortgeschritten") :-
+    Alter >= 12, Alter < 18,
+    (Erfahrung = "Fortgeschritten"; Erfahrung = "Expert").
+zielgruppe(Alter, "Anfänger", "Erwachsene - Einsteiger") :-
+    Alter >= 18.
+zielgruppe(Alter, "Fortgeschritten", "Erwachsene - Fortgeschritten") :-
+    Alter >= 18.
+zielgruppe(Alter, "Expert", "Erwachsene - Experte") :-
+    Alter >= 18.
 
 % Erfahrung
+% erfahrung(Bautechniken, AnzahlGebaut, Erfahrung)
+
+% Anfänger
+erfahrung(["Anleitung", "Modular"], AnzahlGebaut, "Anfänger") :-
+    AnzahlGebaut =< 5.
+
+% Fortgeschritten
+erfahrung(["Anleitung"], AnzahlGebaut, "Fortgeschritten") :-
+    AnzahlGebaut > 15,
+    AnzahlGebaut =< 25.
+
+erfahrung(["Eigenkreation"], AnzahlGebaut, "Fortgeschritten") :-
+    AnzahlGebaut =< 5.
+
+erfahrung(["Anleitung", "Modular", "Eigenkreation"], AnzahlGebaut, "Fortgeschritten") :-
+    AnzahlGebaut > 5,
+    AnzahlGebaut =< 15.
+
+% Expert
+erfahrung(["Modular", "Eigenkreation"], AnzahlGebaut, "Expert") :-
+    AnzahlGebaut > 15,
+    AnzahlGebaut =< 25.
+
+erfahrung(["Anleitung", "Modular", "Eigenkreation"], AnzahlGebaut, "Expert") :-
+    AnzahlGebaut > 25.
+
 
 % Schwierigkeitsgrad: Bauteilmenge, Bauzeit in h, Komplexe Bausteine
 schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Einfach") :- Bauteilmenge=<1500, BauzeitStd=<2.
