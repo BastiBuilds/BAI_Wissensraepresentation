@@ -170,7 +170,7 @@ empfehle_zielgruppe(Alter, Erfahrung, Zielgruppe) :-
 % erfahrung(Bautechniken, AnzahlGebaut, Erfahrung)
 %bautechnikfixwerte ersetzen durch input params
 
-erfahrung_empfehlung(Bautechnkik, AnzahlGebaut, "Anfänger") :- 
+erfahrung_empfehlung(Bautechniken, AnzahlGebaut, "Anfänger") :- 
     AnzahlGebaut =< 5.
 erfahrung_empfehlung(Bautechniken, AnzahlGebaut, "Anfänger") :-
     AnzahlGebaut =< 5,
@@ -204,13 +204,12 @@ empfehle_erfahrung(Bautechniken, AnzahlGebaut, Erfahrung) :-
 % Schwierigkeitsgrad: Bauteilmenge, Bauzeit in h, Komplexe Bausteine
 schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Einfach") :- Bauteilmenge=<1500, BauzeitStd=<2.
 schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Mittel") :- Bauteilmenge=<500, BauzeitStd>2.
-schwierigkeitsgrad(Bauteilmenge, BauzeitStd, true, "Mittel") :- Bauteilmenge=<1500, BauzeitStd>=1, BauzeitStd<=5.
-schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Mittel") :- Bauteilmenge>=500, BauzeitStd>=2, BauzeitStd<=5.
-schwierigkeitsgrad(Bauteilmenge, BauzeitStd, true, "Mittel") :- Bauteilmenge>1500, BauzeitStd>=1, BauzeitStd<=5.
-schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Schwer") :- Bauteilmenge=>500, BauzeitStd>5.
+schwierigkeitsgrad(Bauteilmenge, BauzeitStd, true, "Mittel") :- Bauteilmenge=<1500, BauzeitStd>=1, BauzeitStd=<5.
+schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Mittel") :- Bauteilmenge>=500, BauzeitStd>=2, BauzeitStd=<5.
+schwierigkeitsgrad(Bauteilmenge, BauzeitStd, true, "Mittel") :- Bauteilmenge>1500, BauzeitStd>=1, BauzeitStd=<5.
+schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Schwer") :- Bauteilmenge >= 500, BauzeitStd > 5.
 schwierigkeitsgrad(_, BauzeitStd, true, "Schwer") :- BauzeitStd>5.
 
- 
 
 % Themenwelt
 themenwelt_empfehlung("Fahrzeuge", false, "Technik").
