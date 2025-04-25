@@ -137,10 +137,27 @@ lego_set("Lloyds und Arins Training-Mechs").
 
 % Zielgruppe
 %erfahrung durch input param ersetzen
-zielgruppe_empfehlung(Alter, _, _, "Kleinkinder") :-
-    Alter < 4.
+% Zielgruppe-Empfehlung basierend auf Alter & Erfahrung
 
-
+zielgruppe_empfehlung(Alter, Erfahrung, "Kleinkinder") :-
+    Alter < 4,
+    (Erfahrung = "Anfänger"; Erfahrung = "Fortgeschritten"; Erfahrung = "Expert").
+zielgruppe_empfehlung(Alter, "Anfänger", "Kinder - Einsteiger") :-
+    Alter >= 4, Alter =< 12.
+zielgruppe_empfehlung(Alter, Erfahrung, "Kinder - Fortgeschritten") :-
+    Alter >= 4, Alter =< 12,
+    (Erfahrung = "Fortgeschritten"; Erfahrung = "Expert").
+zielgruppe_empfehlung(Alter, "Anfänger", "Jugendliche - Einsteiger") :-
+    Alter > 12, Alter =< 18.
+zielgruppe_empfehlung(Alter, Erfahrung, "Jugendliche - Fortgeschritten") :-
+    Alter > 12, Alter =< 18,
+    (Erfahrung = "Fortgeschritten"; Erfahrung = "Expert").
+zielgruppe_empfehlung(Alter, "Anfänger", "Erwachsene - Einsteiger") :-
+    Alter >= 18.
+zielgruppe_empfehlung(Alter, "Fortgeschritten", "Erwachsene - Fortgeschritten") :-
+    Alter >= 18.
+zielgruppe_empfehlung(Alter, "Expert", "Erwachsene - Experte") :-
+    Alter >= 18.
 
 empfehle_zielgruppe(Alter, Erfahrung, Zielgruppe) :-
     alter(Alter),
@@ -179,8 +196,6 @@ empfehle_erfahurng(Bautechnik, AnzahlGebaut, Erfahrung) :-
     erfahrung(Erfahrung).
 
     
-
-
 % Schwierigkeitsgrad: Bauteilmenge, Bauzeit in h, Komplexe Bausteine
 schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Einfach") :- Bauteilmenge=<1500, BauzeitStd=<2.
 schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Mittel") :- Bauteilmenge=<500, BauzeitStd>2.
