@@ -249,3 +249,27 @@ empfehle_themenwelt(Interesse, Lizenz, Empfohlen) :-
 
 % ---Hauptprogramm (Lego Set Evaluation)---
 %Alle Abfrfragen von stimmenden input params
+empfehle_lego_set(
+    Alter, Bautechniken, AnzahlGebaut,
+    Interesse, Lizenz,
+    Bauteilmenge, Bauzeit, Komplex,
+    Kompatibel, Preis,
+    Set
+) :-
+
+    % Validierung
+    alter(Alter),
+    anzahl_gebaute_legosets(AnzahlGebaut),
+    bauteilmenge(Bauteilmenge),
+    bauzeit(Bauzeit),
+    kompatibel(Kompatibel),
+    preis(Preis),
+
+    % Subentscheidungen
+    empfehle_erfahrung(Bautechniken, AnzahlGebaut, Erfahrung),
+    empfehle_zielgruppe(Alter, Erfahrung, Zielgruppe),
+    schwierigkeitsgrad(Bauteilmenge, Bauzeit, Komplex, Schwierigkeitsgrad),
+    empfehle_themenwelt(Interesse, Lizenz, Themenwelt),
+
+    % Endentscheidung: Set finden
+    passendes_lego_set(Zielgruppe, Schwierigkeitsgrad, Themenwelt, Kompatibel, Preis, Set).
