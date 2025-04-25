@@ -172,27 +172,32 @@ empfehle_zielgruppe(Alter, Erfahrung, Zielgruppe) :-
 
 erfahrung_empfehlung(Bautechnkik, AnzahlGebaut, "Anfänger") :- 
     AnzahlGebaut =< 5.
-erfahrung_empfehlung(Bautechnik, AnzahlGebaut, "Fortgeschritten") :-
-    AnzahlGebaut > 15,
-    AnzahlGebaut =< 25.
-erfahrung_empfehlung(Bautechnik, AnzahlGebaut, "Fortgeschritten") :-
-    AnzahlGebaut > 15,
-    AnzahlGebaut =< 25.
-erfahrung_empfehlung(Bautechnik, AnzahlGebaut, "Fortgeschritten") :-
-    AnzahlGebaut =< 5.
-erfahrung_empfehlung(Bautechnik, AnzahlGebaut, "Fortgeschritten") :-
-    AnzahlGebaut > 5,
-    AnzahlGebaut =< 15.
-erfahrung_empfehlung(Bautechnik, AnzahlGebaut, "Expert") :-
-    AnzahlGebaut > 15,
-    AnzahlGebaut =< 25.
-erfahrung_empfehlung(Bautechnik, AnzahlGebaut, "Expert") :-
-    AnzahlGebaut > 25.
+erfahrung_empfehlung(Bautechniken, AnzahlGebaut, "Anfänger") :-
+    AnzahlGebaut =< 5,
+    (member("Anleitung", Bautechniken); member("Modular", Bautechniken)).
+erfahrung_empfehlung(Bautechniken, AnzahlGebaut, "Fortgeschritten") :-
+    AnzahlGebaut > 15, AnzahlGebaut =< 25,
+    (member("Anleitung", Bautechniken); member("Eigenkreation", Bautechniken)).
+erfahrung_empfehlung(Bautechniken, AnzahlGebaut, "Fortgeschritten") :-
+    AnzahlGebaut =< 5,
+    member("Eigenkreation", Bautechniken).
+erfahrung_empfehlung(Bautechniken, AnzahlGebaut, "Fortgeschritten") :-
+    AnzahlGebaut > 5, AnzahlGebaut =< 15,
+    (member("Anleitung", Bautechniken);
+     member("Modular", Bautechniken);
+     member("Eigenkreation", Bautechniken)).
+erfahrung_empfehlung(Bautechniken, AnzahlGebaut, "Expert") :-
+    AnzahlGebaut > 15, AnzahlGebaut =< 25,
+    (member("Modular", Bautechniken); member("Eigenkreation", Bautechniken)).
+erfahrung_empfehlung(Bautechniken, AnzahlGebaut, "Expert") :-
+    AnzahlGebaut > 25,
+    member("Anleitung", Bautechniken),
+    member("Modular", Bautechniken),
+    member("Eigenkreation", Bautechniken).
 
-empfehle_erfahurng(Bautechnik, AnzahlGebaut, Erfahrung) :-
-    bautechnik(Bautechnik),
+empfehle_erfahrung(Bautechniken, AnzahlGebaut, Erfahrung) :-
     anzahl_gebaute_legosets(AnzahlGebaut),
-    erfahrung_empfehlung(Bautechnik, AnzahlGebaut, Erfahrung),
+    erfahrung_empfehlung(Bautechniken, AnzahlGebaut, Erfahrung),
     erfahrung(Erfahrung).
 
     
