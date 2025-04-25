@@ -320,7 +320,7 @@ empfehle_lego_set(
     % Empfehlungen ermitteln
     empfehle_themenwelt(Interesse, Lizenz, Themenwelt),
     schwierigkeitsgrad(BauteilMenge, Bauzeit, KomplexeBausteine, Schwierigkeitsgrad),
-    empfehle_erfahrung( Bautechnik, Anzahl_Legosets, Erfahrung),
+    empfehle_erfahrung([Bautechnik], Anzahl_Legosets, Erfahrung),
     empfehle_zielgruppe(Alter, Erfahrung, Zielgruppe),
 
     interessen(Interesse),
