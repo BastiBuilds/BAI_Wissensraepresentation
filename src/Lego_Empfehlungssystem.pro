@@ -133,6 +133,61 @@ lego_set("Darth Mauls Sith Infiltrator").
 lego_set("Spinjitzu-Tempel der Ninja").
 lego_set("Lloyds und Arins Training-Mechs").
 
+passendes_lego_set("Kleinkinder", "Einfach", "City", true, 35, "Abenteuer - Wohnmobil").
+passendes_lego_set("Kleinkinder", "Einfach", "Classic", true, 35, "Mein erster Bauernhof").
+passendes_lego_set("Kleinkinder", "Einfach", "Disney", false, 35, "3-in-1-Zauberschloss").
+passendes_lego_set("Kleinkinder", "Einfach", "Friends", true, 125, "Grosse interaktive Eisenbahn").
+passendes_lego_set("Kleinkinder", "Einfach", "Classic", true, 125, "Grosse interaktive Eisenbahn").
+passendes_lego_set("Kleinkinder", "Einfach", "Ninjago", true, 35, "Spinjitzu-Tempel der Ninja").
+passendes_lego_set("Kinder - Einsteiger", "Einfach", "Creator", true, 35, "Kreativer Reisekoffer").
+passendes_lego_set("Kinder - Einsteiger", "Einfach", "Minecraft", true, 35, "Minecraft Mini-Höhle").
+passendes_lego_set("Kinder - Einsteiger", "Einfach", "Friends", true, 35, "Kreativer Reisekoffer").
+passendes_lego_set("Kinder - Einsteiger", "Einfach", "City", true, 125, "Donut Truck").
+passendes_lego_set("Kinder - Einsteiger", "Einfach", "Friends", true, 125, "Paisleys Haus").
+passendes_lego_set("Kinder - Fortgeschritten", "Einfach", "Harry Potter", false, 125, "Der Sprechende Hut").
+passendes_lego_set("Kinder - Fortgeschritten", "Einfach", "Friends", true, 125, "Bunte Bausteine-Box").
+passendes_lego_set("Kinder - Fortgeschritten", "Mittel", "Harry Potter", true, 125, "Hogwarts Express & der Bahnhof von Hogsmeade").
+passendes_lego_set("Jugendliche - Einsteiger", "Einfach", "Star Wars", true, 35, "Hinterhalt auf Mandalore Battle Pack").
+passendes_lego_set("Jugendliche - Einsteiger", "Mittel", "Star Wars", true, 75, "Darth Mauls Sith Infiltrator").
+passendes_lego_set("Jugendliche - Fortgeschritten", "Schwer", "Technik", true, 200, "McLaren P1").
+passendes_lego_set("Jugendliche - Fortgeschritten", "Schwer", "Technik", true, 200, "Fast and Furious Toyota Supra MK4").
+passendes_lego_set("Erwachsene - Einsteiger", "Mittel", "Technik", false, 200, "Ducati Panigale V4 S Motorrad").
+passendes_lego_set("Erwachsene - Einsteiger", "Mittel", "Technik", true, 200, "NASA Artemis Startrampe").
+passendes_lego_set("Erwachsene - Fortgeschritten", "Schwer", "Technik", false, 500, "Ferrari Daytona SP3").
+passendes_lego_set("Erwachsene - Fortgeschritten", "Schwer", "Technik", false, 1000, "Titanic").
+passendes_lego_set("Erwachsene - Experte", "Schwer", "Technik", true, 1000, "Imperialer Sternzerstörer").
+passendes_lego_set("Erwachsene - Experte", "Schwer", "Technik", true, 1000, "Invisible Hand").
+passendes_lego_set("Erwachsene - Experte", "Schwer", "Technik", true, 1000, "R2-D2").
+passendes_lego_set("Kinder - Fortgeschritten", "Mittel", "Creator", true, 75, "Wilde Tiere: Pandafamilie").
+passendes_lego_set("Kinder - Fortgeschritten", "Mittel", "Disney", true, 150, "Ultimatives Abenteuerschloss").
+passendes_lego_set("Kinder - Fortgeschritten", "Schwer", "Harry Potter", true, 350, "Schloss Hogwarts: Die Große Halle").
+passendes_lego_set("Kinder - Fortgeschritten", "Schwer", "Architektur", true, 60, "New York City").
+passendes_lego_set("Jugendliche - Einsteiger", "Einfach", "Creator", true, 35, "Wilde Tiere: Rosa Flamingo").
+passendes_lego_set("Jugendliche - Einsteiger", "Einfach", "Technik", true, 75, "Fast and Furious Toyota Supra MK4").
+passendes_lego_set("Jugendliche - Einsteiger", "Einfach", "Star Wars", true, 150, "R2-D2").
+passendes_lego_set("Jugendliche - Einsteiger", "Mittel", "Harry Potter", true, 350, "Schloss Hogwarts: Die Große Halle").
+passendes_lego_set("Jugendliche - Fortgeschritten", "Mittel", "Marvel", false, 150, "MARVEL Logo & Minifiguren").
+passendes_lego_set("Jugendliche - Fortgeschritten", "Einfach", "Architektur", false, 35, "London").
+passendes_lego_set("Jugendliche - Fortgeschritten", "Mittel", "Architektur", false, 75, "New York City").
+passendes_lego_set("Jugendliche - Fortgeschritten", "Mittel", "Marvel", false, 150, "MARVEL Logo & Minifiguren").
+passendes_lego_set("Jugendliche - Fortgeschritten", "Schwer", "Ninjago", false, 350, "NINJAGO City Werkstätten").
+passendes_lego_set("Erwachsene - Einsteiger", "Einfach", "-", false, 275, "Darth Vader Helm").
+passendes_lego_set("Erwachsene - Einsteiger", "Mittel", "Star Wars", true, 75, "Invisible Hand").
+passendes_lego_set("Erwachsene - Einsteiger", "Mittel", "Minecraft", true, 150, "Die Werkbank").
+passendes_lego_set("Erwachsene - Einsteiger", "Mittel", "Disney", false, 350, "Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern").
+passendes_lego_set("Erwachsene - Fortgeschritten", "Mittel", "-", false, 275, "Trevi-Brunnen").
+passendes_lego_set("Erwachsene - Fortgeschritten", "Mittel", "Harry Potter", false, 75, "Der Sprechende Hut").
+passendes_lego_set("Erwachsene - Fortgeschritten", "Mittel", "Technik", false, 150, "Ducati Panigale V4 S Motorrad").
+passendes_lego_set("Erwachsene - Fortgeschritten", "Schwer", "Technik", false, 350, "McLaren P1").
+passendes_lego_set("Erwachsene - Fortgeschritten", "Schwer", "Marvel", true, 350, "X-Men: X-Mansion").
+passendes_lego_set("Erwachsene - Fortgeschritten", "Schwer", "Harry Potter", false, 750, "Schloss Hogwarts").
+passendes_lego_set("Erwachsene - Experte", "Mittel", "-", false, 550, "Die Milchstraßen-Galaxie").
+passendes_lego_set("Erwachsene - Experte", "Mittel", "Harry Potter", false, 150, "Schloss Hogwarts mit Schlossgelände").
+passendes_lego_set("Erwachsene - Experte", "Schwer", "Technik", false, 350, "Ferrari Daytona SP3").
+passendes_lego_set("Erwachsene - Experte", "Schwer", "Creator", false, 750, "Titanic").
+passendes_lego_set("Erwachsene - Experte", "Schwer", "Marvel", true, 750, "Avengers Tower").
+
+
 % ---Entscheidungslogik ---
 
 % Zielgruppe
@@ -170,8 +225,6 @@ empfehle_zielgruppe(Alter, Erfahrung, Zielgruppe) :-
 % erfahrung(Bautechniken, AnzahlGebaut, Erfahrung)
 %bautechnikfixwerte ersetzen durch input params
 
-erfahrung_empfehlung(Bautechniken, AnzahlGebaut, "Anfänger") :- 
-    AnzahlGebaut =< 5.
 erfahrung_empfehlung(Bautechniken, AnzahlGebaut, "Anfänger") :-
     AnzahlGebaut =< 5,
     (member("Anleitung", Bautechniken); member("Modular", Bautechniken)).
