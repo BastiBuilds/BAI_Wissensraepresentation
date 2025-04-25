@@ -158,7 +158,7 @@ zielgruppe(Alter, "Expert", "Erwachsene - Experte") :-
 % erfahrung(Bautechniken, AnzahlGebaut, Erfahrung)
 
 % Anfänger
-%bautechnikfixwerte ersetzen durch input params + anz gebaut einschränken
+%bautechnikfixwerte ersetzen durch input params
 erfahrung(["Anleitung", "Modular"], AnzahlGebaut, "Anfänger") :-
     AnzahlGebaut =< 5.
 
@@ -184,7 +184,6 @@ erfahrung(["Anleitung", "Modular", "Eigenkreation"], AnzahlGebaut, "Expert") :-
 
 
 % Schwierigkeitsgrad: Bauteilmenge, Bauzeit in h, Komplexe Bausteine
-%Bauteilmenge und zeit muss noch gemäss dmn eingeschränkt werden
 schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Einfach") :- Bauteilmenge=<1500, BauzeitStd=<2.
 schwierigkeitsgrad(Bauteilmenge, BauzeitStd, false, "Mittel") :- Bauteilmenge=<500, BauzeitStd>2.
 schwierigkeitsgrad(Bauteilmenge, BauzeitStd, true, "Mittel") :- Bauteilmenge=<1500, BauzeitStd>=1, BauzeitStd<=5.
@@ -231,4 +230,4 @@ empfehle_themenwelt(Interesse, Lizenz, Empfohlen) :-
     themenwelt(Empfohlen).
 
 % ---Hauptprogramm (Lego Set Evaluation)---
-
+%Alle Abfrfragen von stimmenden input params
