@@ -157,11 +157,7 @@ zielgruppe_empfehlung(Alter, 'Expert', 'Erwachsene - Experte') :-
     Alter >= 18.
 
 empfehle_zielgruppe(Alter, Erfahrung, Zielgruppe) :-
-    alter(Alter),
-    erfahrung(Erfahrung),
-    zielgruppe_empfehlung(Alter, Erfahrung, Zielgruppe),
-    zielgruppe(Zielgruppe).
-
+    zielgruppe_empfehlung(Alter, Erfahrung, Zielgruppe).
 
 % Erfahrung
 % erfahrung(Bautechniken, AnzahlGebaut, Erfahrung)
@@ -189,9 +185,7 @@ erfahrung_empfehlung(Bautechniken, AnzahlGebaut, 'Expert') :-
     member('Eigenkreation', Bautechniken).
 
 empfehle_erfahrung(Bautechniken, AnzahlGebaut, Erfahrung) :-
-    anzahl_gebaute_legosets(AnzahlGebaut),
-    erfahrung_empfehlung(Bautechniken, AnzahlGebaut, Erfahrung),
-    erfahrung(Erfahrung).
+    erfahrung_empfehlung(Bautechniken, AnzahlGebaut, Erfahrung).
 
     
 % Schwierigkeitsgrad: Bauteilmenge, Bauzeit in h, Komplexe Bausteine
@@ -232,12 +226,7 @@ themenwelt_empfehlung('Fantasy', true, 'Harry Potter').
 themenwelt_empfehlung('Simples Spielen', _, 'Classic').
 
 empfehle_themenwelt(Interesse, Lizenz, Empfohlen) :-
-    interessen(Interesse),
-    soll_lizenz_haben(Lizenz),
-
-    % Anhand von Interesse und Lizenzstatus gibts die jeweilige Empfehlung
-    themenwelt_empfehlung(Interesse, Lizenz, Empfohlen),
-    themenwelt(Empfohlen).
+    themenwelt_empfehlung(Interesse, Lizenz, Empfohlen).
 
 % ---Hauptprogramm (Lego Set Evaluation)---
 
