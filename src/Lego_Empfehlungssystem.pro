@@ -229,10 +229,8 @@ empfehle_themenwelt(Interesse, Lizenz, Empfohlen) :-
     themenwelt_empfehlung(Interesse, Lizenz, Empfohlen).
 
 % ---Hauptprogramm (Lego Set Evaluation)---
-% Aufteilung der Set-Eigenschaften in einzelne Fakten zur besseren Wartbarkeit
 
 % --- Definition der Lego Sets und ihrer Eigenschaften ---
-
 % Set: 'Abenteuer - Wohnmobil'
 lego_set('Abenteuer - Wohnmobil').
 set_zielgruppe('Abenteuer - Wohnmobil', 'Kleinkinder').
@@ -579,7 +577,6 @@ set_schwierigkeit_match(Set, GesuchterSchwierigkeitsgrad) :-
     ).
 
 
-% --- Preisbereich Definition (unverändert) ---
 preis_im_bereich(Preis, preisbereich(20,50))   :- Preis >= 20,  Preis =< 50.
 preis_im_bereich(Preis, preisbereich(51,200))  :- Preis >= 51,  Preis =< 200.
 preis_im_bereich(Preis, preisbereich(201,500)) :- Preis >= 201, Preis =< 500.
@@ -611,7 +608,6 @@ empfehle_lego_set(
     zielgruppe(Zielgruppe),
     themenwelt(Themenwelt),
 
-    % Passenden Preisbereich finden
     preis_im_bereich(Preis_Eingabe, Preisbereich),
 
     % Set suchen, das ALLEN abgeleiteten Kriterien entspricht
