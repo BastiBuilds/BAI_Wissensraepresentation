@@ -251,333 +251,266 @@ kunde_praeferenzen(elena, 30, 800, false, 'Eigenkreation', 50, 5000, 20, true, t
 % ---Hauptprogramm (Lego Set Evaluation)---
 
 % --- Definition der Lego Sets und ihrer Eigenschaften ---
-% Set: 'Abenteuer - Wohnmobil'
+
+% --- Lego Set Namen (lego_set/1) ---
 lego_set('Abenteuer - Wohnmobil').
-set_zielgruppe('Abenteuer - Wohnmobil', 'Kleinkinder').
-set_themenwelt('Abenteuer - Wohnmobil', 'City').
-set_preisbereich('Abenteuer - Wohnmobil', preisbereich(20,50)).
-set_kompatibel('Abenteuer - Wohnmobil', true).
-set_schwierigkeit('Abenteuer - Wohnmobil', 'Einfach').
-
-% Set: 'Mein erster Bauernhof'
 lego_set('Mein erster Bauernhof').
-set_zielgruppe('Mein erster Bauernhof', 'Kleinkinder').
-set_themenwelt('Mein erster Bauernhof', 'Classic').
-set_preisbereich('Mein erster Bauernhof', preisbereich(20,50)).
-set_kompatibel('Mein erster Bauernhof', true).
-set_schwierigkeit('Mein erster Bauernhof', 'Einfach').
-
-% Set: '3-in-1-Zauberschloss'
 lego_set('3-in-1-Zauberschloss').
-set_zielgruppe('3-in-1-Zauberschloss', 'Kleinkinder').
-set_themenwelt('3-in-1-Zauberschloss', 'Disney').
-set_preisbereich('3-in-1-Zauberschloss', preisbereich(20,50)).
-set_kompatibel('3-in-1-Zauberschloss', false).
-set_schwierigkeit('3-in-1-Zauberschloss', 'Einfach').
-
-% Set: 'Grosse interaktive Eisenbahn'
 lego_set('Grosse interaktive Eisenbahn').
-set_zielgruppe('Grosse interaktive Eisenbahn', 'Kleinkinder').
-set_themenwelt('Grosse interaktive Eisenbahn', 'Classic').
-set_preisbereich('Grosse interaktive Eisenbahn', preisbereich(51,200)).
-set_kompatibel('Grosse interaktive Eisenbahn', true).
-set_schwierigkeit('Grosse interaktive Eisenbahn', 'Einfach').
-set_themenwelt('Grosse interaktive Eisenbahn', 'Classic').
-
-% Set: 'Spinjitzu-Tempel der Ninja'
 lego_set('Spinjitzu-Tempel der Ninja').
-set_zielgruppe('Spinjitzu-Tempel der Ninja', ['Kleinkinder','Kinder - Einsteiger']).
-set_themenwelt('Spinjitzu-Tempel der Ninja', 'Ninjago').
-set_preisbereich('Spinjitzu-Tempel der Ninja', preisbereich(20,50)).
-set_kompatibel('Spinjitzu-Tempel der Ninja', true).
-set_schwierigkeit('Spinjitzu-Tempel der Ninja', ['Einfach','Mittel']).
-
-% Set: 'Kreativer Reisekoffer'
 lego_set('Kreativer Reisekoffer').
-set_zielgruppe('Kreativer Reisekoffer', 'Kinder - Einsteiger').
-set_themenwelt('Kreativer Reisekoffer', 'Creator').
-set_preisbereich('Kreativer Reisekoffer', preisbereich(20,50)).
-set_kompatibel('Kreativer Reisekoffer', true).
-set_schwierigkeit('Kreativer Reisekoffer', 'Einfach').
-set_themenwelt('Kreativer Reisekoffer', 'Friends').
-
-% Set: 'Minecraft Mini-Höhle'
 lego_set('Minecraft Mini-Höhle').
-set_zielgruppe('Minecraft Mini-Höhle', 'Kinder - Einsteiger').
-set_themenwelt('Minecraft Mini-Höhle', 'Minecraft').
-set_preisbereich('Minecraft Mini-Höhle', preisbereich(20,50)).
-set_kompatibel('Minecraft Mini-Höhle', true).
-set_schwierigkeit('Minecraft Mini-Höhle', 'Einfach').
-
-% Set: 'Donut Truck'
 lego_set('Donut Truck').
-set_zielgruppe('Donut Truck', 'Kinder - Einsteiger').
-set_themenwelt('Donut Truck', 'City').
-set_preisbereich('Donut Truck', preisbereich(51,200)).
-set_kompatibel('Donut Truck', true).
-set_schwierigkeit('Donut Truck', 'Einfach').
-set_themenwelt('Donut Truck', 'City').
-
-% Set: 'Paisleys Haus'
 lego_set('Paisleys Haus').
-set_zielgruppe('Paisleys Haus', 'Kinder - Einsteiger').
-set_themenwelt('Paisleys Haus', 'Friends').
-set_preisbereich('Paisleys Haus', preisbereich(51,200)).
-set_kompatibel('Paisleys Haus', true).
-set_schwierigkeit('Paisleys Haus', 'Einfach').
-
-% Set: 'Bunte Bausteine-Box'
 lego_set('Bunte Bausteine-Box').
-set_zielgruppe('Bunte Bausteine-Box', 'Kinder - Einsteiger').
-set_themenwelt('Bunte Bausteine-Box', 'Classic').
-set_preisbereich('Bunte Bausteine-Box', preisbereich(51,200)).
-set_kompatibel('Bunte Bausteine-Box', true).
-set_schwierigkeit('Bunte Bausteine-Box', 'Einfach').
-set_themenwelt('Bunte Bausteine-Box', 'Star Wars').
-set_preisbereich('Bunte Bausteine-Box', preisbereich(20,50)).
-
-% Set: 'Lloyds und Arins Training-Mechs'
 lego_set('Lloyds und Arins Training-Mechs').
-set_zielgruppe('Lloyds und Arins Training-Mechs', ['Kinder - Einsteiger','Kinder - Fortgeschritten']).
-set_themenwelt('Lloyds und Arins Training-Mechs', 'Ninjago').
-set_preisbereich('Lloyds und Arins Training-Mechs', preisbereich(51,200)).
-set_kompatibel('Lloyds und Arins Training-Mechs', true).
-set_schwierigkeit('Lloyds und Arins Training-Mechs', ['Einfach','Mittel']).
-
-% Set: 'Obi-Wan Kenobis Jedi Startfighter'
 lego_set('Obi-Wan Kenobis Jedi Startfighter').
-set_zielgruppe('Obi-Wan Kenobis Jedi Startfighter', 'Kinder - Fortgeschritten').
-set_themenwelt('Obi-Wan Kenobis Jedi Startfighter', 'Star Wars').
-set_preisbereich('Obi-Wan Kenobis Jedi Startfighter', preisbereich(20,50)).
-set_kompatibel('Obi-Wan Kenobis Jedi Startfighter', true).
-set_schwierigkeit('Obi-Wan Kenobis Jedi Startfighter', 'Einfach').
-
-% Set: 'Geschäft für Haustierzubehör'
 lego_set('Geschäft für Haustierzubehör').
-set_zielgruppe('Geschäft für Haustierzubehör', 'Kinder - Fortgeschritten').
-set_themenwelt('Geschäft für Haustierzubehör', 'Friends').
-set_preisbereich('Geschäft für Haustierzubehör', preisbereich(20,50)).
-set_kompatibel('Geschäft für Haustierzubehör', true).
-set_schwierigkeit('Geschäft für Haustierzubehör', 'Einfach').
-
-% Set: 'Wilde Tiere: Pandafamilie'
 lego_set('Wilde Tiere: Pandafamilie').
-set_zielgruppe('Wilde Tiere: Pandafamilie', 'Kinder - Fortgeschritten').
-set_themenwelt('Wilde Tiere: Pandafamilie', 'Creator').
-set_preisbereich('Wilde Tiere: Pandafamilie', preisbereich(51,200)).
-set_kompatibel('Wilde Tiere: Pandafamilie', true).
-set_schwierigkeit('Wilde Tiere: Pandafamilie', 'Mittel').
-
-% Set: 'Ultimatives Abenteuerschloss'
 lego_set('Ultimatives Abenteuerschloss').
-set_zielgruppe('Ultimatives Abenteuerschloss', 'Kinder - Fortgeschritten').
-set_themenwelt('Ultimatives Abenteuerschloss', 'Disney').
-set_preisbereich('Ultimatives Abenteuerschloss', preisbereich(51,200)).
-set_kompatibel('Ultimatives Abenteuerschloss', true).
-set_schwierigkeit('Ultimatives Abenteuerschloss', 'Mittel').
-
-% Set: 'Schloss Hogwarts: Die Große Halle'
 lego_set('Schloss Hogwarts: Die Grosse Halle').
-set_zielgruppe('Schloss Hogwarts: Die Grosse Halle', 'Kinder - Fortgeschritten').
-set_themenwelt('Schloss Hogwarts: Die Grosse Halle', 'Harry Potter').
-set_preisbereich('Schloss Hogwarts: Die Grosse Halle', preisbereich(201,500)).
-set_kompatibel('Schloss Hogwarts: Die Grosse Halle', true).
-set_schwierigkeit('Schloss Hogwarts: Die Grosse Halle', 'Schwer').
-set_zielgruppe('Schloss Hogwarts: Die Grosse Halle', 'Jugendliche - Einsteiger').
-set_schwierigkeit('Schloss Hogwarts: Die Grosse Halle', 'Mittel').
-
-% Set: 'New York City'
 lego_set('New York City').
-set_zielgruppe('New York City', ['Kinder - Fortgeschritten','Jugendliche - Einsteiger']).
-set_themenwelt('New York City', 'Architektur').
-set_preisbereich('New York City', preisbereich(20,50)).
-set_kompatibel('New York City', true).
-set_schwierigkeit('New York City', 'Schwer').
-set_zielgruppe('New York City', 'Jugendliche - Fortgeschritten').
-set_preisbereich('New York City', preisbereich(51,200)).
-set_kompatibel('New York City', false).
-set_schwierigkeit('New York City', 'Mittel').
-
-% Set: 'Darth Mauls Sith Infiltrator'
 lego_set('Darth Mauls Sith Infiltrator').
-set_zielgruppe('Darth Mauls Sith Infiltrator', ['Kinder - Einsteiger','Jugendliche - Einsteiger']).
-set_themenwelt('Darth Mauls Sith Infiltrator', 'Star Wars').
-set_preisbereich('Darth Mauls Sith Infiltrator', preisbereich(51,200)).
-set_kompatibel('Darth Mauls Sith Infiltrator', true).
-set_schwierigkeit('Darth Mauls Sith Infiltrator', ['Einfach','Mittel']).
-
-% Set: 'Trevi-Brunnen'
 lego_set('Trevi-Brunnen').
-set_zielgruppe('Trevi-Brunnen', 'Jugendliche - Einsteiger').
-set_themenwelt('Trevi-Brunnen', 'Architektur').
-set_preisbereich('Trevi-Brunnen', preisbereich(201,500)).
-set_kompatibel('Trevi-Brunnen', true).
-set_schwierigkeit('Trevi-Brunnen', 'Einfach').
-set_zielgruppe('Trevi-Brunnen', 'Erwachsene - Fortgeschritten').
-set_preisbereich('Trevi-Brunnen', preisbereich(51,200)).
-set_kompatibel('Trevi-Brunnen', false).
-set_schwierigkeit('Trevi-Brunnen', 'Mittel').
-
-% Set: 'Wilde Tiere: Rosa Flamingo'
 lego_set('Wilde Tiere: Rosa Flamingo').
-set_zielgruppe('Wilde Tiere: Rosa Flamingo', 'Jugendliche - Einsteiger').
-set_themenwelt('Wilde Tiere: Rosa Flamingo', 'Creator').
-set_preisbereich('Wilde Tiere: Rosa Flamingo', preisbereich(20,50)).
-set_kompatibel('Wilde Tiere: Rosa Flamingo', true).
-set_schwierigkeit('Wilde Tiere: Rosa Flamingo', 'Einfach').
-
-% Set: 'Fast and Furious Toyota Supra MK4'
 lego_set('Fast and Furious Toyota Supra MK4').
-set_zielgruppe('Fast and Furious Toyota Supra MK4', 'Jugendliche - Einsteiger').
-set_themenwelt('Fast and Furious Toyota Supra MK4', 'Technik').
-set_preisbereich('Fast and Furious Toyota Supra MK4', preisbereich(51,200)).
-set_kompatibel('Fast and Furious Toyota Supra MK4', true).
-set_schwierigkeit('Fast and Furious Toyota Supra MK4', 'Einfach').
-
-% Set: 'R2-D2'
 lego_set('R2-D2').
-set_zielgruppe('R2-D2', 'Jugendliche - Einsteiger').
-set_themenwelt('R2-D2', 'Star Wars').
-set_preisbereich('R2-D2', preisbereich(51,200)).
-set_kompatibel('R2-D2', true).
-set_schwierigkeit('R2-D2', 'Einfach').
-
-% Set: 'MARVEL Logo & Minifiguren'
 lego_set('MARVEL Logo & Minifiguren').
-set_zielgruppe('MARVEL Logo & Minifiguren', 'Jugendliche - Fortgeschritten').
-set_themenwelt('MARVEL Logo & Minifiguren', 'Marvel').
-set_preisbereich('MARVEL Logo & Minifiguren', preisbereich(201,500)).
-set_kompatibel('MARVEL Logo & Minifiguren', false).
-set_schwierigkeit('MARVEL Logo & Minifiguren', 'Mittel').
-set_preisbereich('MARVEL Logo & Minifiguren', preisbereich(51,200)).
-
-% Set: 'London'
 lego_set('London').
-set_zielgruppe('London', 'Jugendliche - Fortgeschritten').
-set_themenwelt('London', 'Architektur').
-set_preisbereich('London', preisbereich(20,50)).
-set_kompatibel('London', false).
-set_schwierigkeit('London', 'Einfach').
-
-% Set: 'NINJAGO City Werkstätten'
 lego_set('NINJAGO City Werkstätten').
-set_zielgruppe('NINJAGO City Werkstätten', 'Jugendliche - Fortgeschritten').
-set_themenwelt('NINJAGO City Werkstätten', 'Ninjago').
-set_preisbereich('NINJAGO City Werkstätten', preisbereich(201,500)).
-set_kompatibel('NINJAGO City Werkstätten', false).
-set_schwierigkeit('NINJAGO City Werkstätten', 'Schwer').
-
-% Set: 'Darth Vader Helm'
 lego_set('Darth Vader Helm').
-set_zielgruppe('Darth Vader Helm', 'Erwachsene - Einsteiger').
-set_themenwelt('Darth Vader Helm', 'Star Wars').
-set_preisbereich('Darth Vader Helm', preisbereich(51,200)).
-set_kompatibel('Darth Vader Helm', false).
-set_schwierigkeit('Darth Vader Helm', 'Einfach').
-
-% Set: 'Invisible Hand'
 lego_set('Invisible Hand').
-set_zielgruppe('Invisible Hand', 'Erwachsene - Einsteiger').
-set_themenwelt('Invisible Hand', 'Star Wars').
-set_preisbereich('Invisible Hand', preisbereich(51,200)).
-set_kompatibel('Invisible Hand', true).
-set_schwierigkeit('Invisible Hand', 'Mittel').
-
-% Set: 'Die Werkbank'
 lego_set('Die Werkbank').
-set_zielgruppe('Die Werkbank', 'Erwachsene - Einsteiger').
-set_themenwelt('Die Werkbank', 'Minecraft').
-set_preisbereich('Die Werkbank', preisbereich(51,200)).
-set_kompatibel('Die Werkbank', true).
-set_schwierigkeit('Die Werkbank', 'Mittel').
-
-% Set: 'Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern'
 lego_set('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern').
-set_zielgruppe('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern', 'Erwachsene - Einsteiger').
-set_themenwelt('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern', 'Disney').
-set_preisbereich('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern', preisbereich(201,500)).
-set_kompatibel('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern', false).
-set_schwierigkeit('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern', 'Mittel').
-
-% Set: 'Der Sprechende Hut'
 lego_set('Der Sprechende Hut').
-set_zielgruppe('Der Sprechende Hut', 'Erwachsene - Fortgeschritten').
-set_themenwelt('Der Sprechende Hut', 'Harry Potter').
-set_preisbereich('Der Sprechende Hut', preisbereich(51,200)).
-set_kompatibel('Der Sprechende Hut', false).
-set_schwierigkeit('Der Sprechende Hut', 'Mittel').
-
-% Set: 'Ducati Panigale V4 S Motorrad'
 lego_set('Ducati Panigale V4 S Motorrad').
-set_zielgruppe('Ducati Panigale V4 S Motorrad', 'Erwachsene - Fortgeschritten').
-set_themenwelt('Ducati Panigale V4 S Motorrad', 'Technik').
-set_preisbereich('Ducati Panigale V4 S Motorrad', preisbereich(51,200)).
-set_kompatibel('Ducati Panigale V4 S Motorrad', false).
-set_schwierigkeit('Ducati Panigale V4 S Motorrad', 'Mittel').
-
-% Set: 'McLaren P1'
 lego_set('McLaren P1').
-set_zielgruppe('McLaren P1', 'Erwachsene - Fortgeschritten').
-set_themenwelt('McLaren P1', 'Technik').
-set_preisbereich('McLaren P1', preisbereich(201,500)).
-set_kompatibel('McLaren P1', false).
-set_schwierigkeit('McLaren P1', 'Schwer').
-
-% Set: 'X-Men: X-Mansion'
 lego_set('X-Men: X-Mansion').
-set_zielgruppe('X-Men: X-Mansion', 'Erwachsene - Fortgeschritten').
-set_themenwelt('X-Men: X-Mansion', 'Marvel').
-set_preisbereich('X-Men: X-Mansion', preisbereich(201,500)).
-set_kompatibel('X-Men: X-Mansion', true).
-set_schwierigkeit('X-Men: X-Mansion', 'Schwer').
-
-% Set: 'Schloss Hogwarts'
 lego_set('Schloss Hogwarts').
-set_zielgruppe('Schloss Hogwarts', 'Erwachsene - Fortgeschritten').
-set_themenwelt('Schloss Hogwarts', 'Harry Potter').
-set_preisbereich('Schloss Hogwarts', preisbereich(501,1000)).
-set_kompatibel('Schloss Hogwarts', false).
-set_schwierigkeit('Schloss Hogwarts', 'Schwer').
-
-% Set: 'Die Milchstraßen-Galaxie'
 lego_set('Die Milchstrassen-Galaxie').
-set_zielgruppe('Die Milchstrassen-Galaxie', 'Erwachsene - Experte').
-set_themenwelt('Die Milchstrassen-Galaxie', 'Creator').
-set_preisbereich('Die Milchstrassen-Galaxie', preisbereich(51,200)).
-set_kompatibel('Die Milchstrassen-Galaxie', false).
-set_schwierigkeit('Die Milchstrassen-Galaxie', 'Mittel').
-
-% Set: 'Schloss Hogwarts mit Schlossgelände'
 lego_set('Schloss Hogwarts mit Schlossgelände').
-set_zielgruppe('Schloss Hogwarts mit Schlossgelände', 'Erwachsene - Experte').
-set_themenwelt('Schloss Hogwarts mit Schlossgelände', 'Harry Potter').
-set_preisbereich('Schloss Hogwarts mit Schlossgelände', preisbereich(51,200)).
-set_kompatibel('Schloss Hogwarts mit Schlossgelände', false).
-set_schwierigkeit('Schloss Hogwarts mit Schlossgelände', 'Mittel').
-set_zielgruppe('Schloss Hogwarts mit Schlossgelände', 'Kinder - Fortgeschritten').
-
-% Set: 'Ferrari Daytona SP3'
 lego_set('Ferrari Daytona SP3').
-set_zielgruppe('Ferrari Daytona SP3', 'Erwachsene - Experte').
-set_themenwelt('Ferrari Daytona SP3', 'Technik').
-set_preisbereich('Ferrari Daytona SP3', preisbereich(201,500)).
-set_kompatibel('Ferrari Daytona SP3', false).
-set_schwierigkeit('Ferrari Daytona SP3', 'Schwer').
-
-% Set: 'Titanic'
 lego_set('Titanic').
-set_zielgruppe('Titanic', 'Erwachsene - Experte').
-set_themenwelt('Titanic', 'Creator').
-set_preisbereich('Titanic', preisbereich(501,1000)).
-set_kompatibel('Titanic', false).
-set_schwierigkeit('Titanic', 'Schwer').
-
-% Set: 'Avengers Tower'
 lego_set('Avengers Tower').
+
+% --- Lego Set Zielgruppen (set_zielgruppe/2) ---
+set_zielgruppe('Abenteuer - Wohnmobil', 'Kleinkinder').
+set_zielgruppe('Mein erster Bauernhof', 'Kleinkinder').
+set_zielgruppe('3-in-1-Zauberschloss', 'Kleinkinder').
+set_zielgruppe('Grosse interaktive Eisenbahn', 'Kleinkinder').
+set_zielgruppe('Spinjitzu-Tempel der Ninja', ['Kleinkinder','Kinder - Einsteiger']).
+set_zielgruppe('Kreativer Reisekoffer', 'Kinder - Einsteiger').
+set_zielgruppe('Minecraft Mini-Höhle', 'Kinder - Einsteiger').
+set_zielgruppe('Donut Truck', 'Kinder - Einsteiger').
+set_zielgruppe('Paisleys Haus', 'Kinder - Einsteiger').
+set_zielgruppe('Bunte Bausteine-Box', 'Kinder - Einsteiger').
+set_zielgruppe('Lloyds und Arins Training-Mechs', ['Kinder - Einsteiger','Kinder - Fortgeschritten']).
+set_zielgruppe('Obi-Wan Kenobis Jedi Startfighter', 'Kinder - Fortgeschritten').
+set_zielgruppe('Geschäft für Haustierzubehör', 'Kinder - Fortgeschritten').
+set_zielgruppe('Wilde Tiere: Pandafamilie', 'Kinder - Fortgeschritten').
+set_zielgruppe('Ultimatives Abenteuerschloss', 'Kinder - Fortgeschritten').
+set_zielgruppe('Schloss Hogwarts: Die Grosse Halle', 'Kinder - Fortgeschritten').
+set_zielgruppe('Schloss Hogwarts: Die Grosse Halle', 'Jugendliche - Einsteiger').
+set_zielgruppe('New York City', ['Kinder - Fortgeschritten','Jugendliche - Einsteiger']).
+set_zielgruppe('New York City', 'Jugendliche - Fortgeschritten'). 
+set_zielgruppe('Darth Mauls Sith Infiltrator', ['Kinder - Einsteiger','Jugendliche - Einsteiger']).
+set_zielgruppe('Trevi-Brunnen', 'Jugendliche - Einsteiger').
+set_zielgruppe('Trevi-Brunnen', 'Erwachsene - Fortgeschritten'). 
+set_zielgruppe('Wilde Tiere: Rosa Flamingo', 'Jugendliche - Einsteiger').
+set_zielgruppe('Fast and Furious Toyota Supra MK4', 'Jugendliche - Einsteiger').
+set_zielgruppe('R2-D2', 'Jugendliche - Einsteiger').
+set_zielgruppe('MARVEL Logo & Minifiguren', 'Jugendliche - Fortgeschritten').
+set_zielgruppe('London', 'Jugendliche - Fortgeschritten').
+set_zielgruppe('NINJAGO City Werkstätten', 'Jugendliche - Fortgeschritten').
+set_zielgruppe('Darth Vader Helm', 'Erwachsene - Einsteiger').
+set_zielgruppe('Invisible Hand', 'Erwachsene - Einsteiger').
+set_zielgruppe('Die Werkbank', 'Erwachsene - Einsteiger').
+set_zielgruppe('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern', 'Erwachsene - Einsteiger').
+set_zielgruppe('Der Sprechende Hut', 'Erwachsene - Fortgeschritten').
+set_zielgruppe('Ducati Panigale V4 S Motorrad', 'Erwachsene - Fortgeschritten').
+set_zielgruppe('McLaren P1', 'Erwachsene - Fortgeschritten').
+set_zielgruppe('X-Men: X-Mansion', 'Erwachsene - Fortgeschritten').
+set_zielgruppe('Schloss Hogwarts', 'Erwachsene - Fortgeschritten').
+set_zielgruppe('Die Milchstrassen-Galaxie', 'Erwachsene - Experte').
+set_zielgruppe('Schloss Hogwarts mit Schlossgelände', 'Erwachsene - Experte').
+set_zielgruppe('Schloss Hogwarts mit Schlossgelände', 'Kinder - Fortgeschritten'). 
+set_zielgruppe('Ferrari Daytona SP3', 'Erwachsene - Experte').
+set_zielgruppe('Titanic', 'Erwachsene - Experte').
 set_zielgruppe('Avengers Tower', 'Erwachsene - Experte').
+
+% --- Lego Set Themenwelten (set_themenwelt/2) ---
+set_themenwelt('Abenteuer - Wohnmobil', 'City').
+set_themenwelt('Mein erster Bauernhof', 'Classic').
+set_themenwelt('3-in-1-Zauberschloss', 'Disney').
+set_themenwelt('Grosse interaktive Eisenbahn', 'Classic'). % War doppelt, einmal reicht
+set_themenwelt('Spinjitzu-Tempel der Ninja', 'Ninjago').
+set_themenwelt('Kreativer Reisekoffer', 'Creator').
+set_themenwelt('Kreativer Reisekoffer', 'Friends'). % Mehrfachdefinition, prüfen ob beabsichtigt
+set_themenwelt('Minecraft Mini-Höhle', 'Minecraft').
+set_themenwelt('Donut Truck', 'City'). % War doppelt, einmal reicht
+set_themenwelt('Paisleys Haus', 'Friends').
+set_themenwelt('Bunte Bausteine-Box', 'Classic').
+set_themenwelt('Bunte Bausteine-Box', 'Star Wars'). % Mehrfachdefinition, prüfen ob beabsichtigt
+set_themenwelt('Lloyds und Arins Training-Mechs', 'Ninjago').
+set_themenwelt('Obi-Wan Kenobis Jedi Startfighter', 'Star Wars').
+set_themenwelt('Geschäft für Haustierzubehör', 'Friends').
+set_themenwelt('Wilde Tiere: Pandafamilie', 'Creator').
+set_themenwelt('Ultimatives Abenteuerschloss', 'Disney').
+set_themenwelt('Schloss Hogwarts: Die Grosse Halle', 'Harry Potter').
+set_themenwelt('New York City', 'Architektur').
+set_themenwelt('Darth Mauls Sith Infiltrator', 'Star Wars').
+set_themenwelt('Trevi-Brunnen', 'Architektur').
+set_themenwelt('Wilde Tiere: Rosa Flamingo', 'Creator').
+set_themenwelt('Fast and Furious Toyota Supra MK4', 'Technik').
+set_themenwelt('R2-D2', 'Star Wars').
+set_themenwelt('MARVEL Logo & Minifiguren', 'Marvel').
+set_themenwelt('London', 'Architektur').
+set_themenwelt('NINJAGO City Werkstätten', 'Ninjago').
+set_themenwelt('Darth Vader Helm', 'Star Wars').
+set_themenwelt('Invisible Hand', 'Star Wars').
+set_themenwelt('Die Werkbank', 'Minecraft').
+set_themenwelt('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern', 'Disney').
+set_themenwelt('Der Sprechende Hut', 'Harry Potter').
+set_themenwelt('Ducati Panigale V4 S Motorrad', 'Technik').
+set_themenwelt('McLaren P1', 'Technik').
+set_themenwelt('X-Men: X-Mansion', 'Marvel').
+set_themenwelt('Schloss Hogwarts', 'Harry Potter').
+set_themenwelt('Die Milchstrassen-Galaxie', 'Creator').
+set_themenwelt('Schloss Hogwarts mit Schlossgelände', 'Harry Potter').
+set_themenwelt('Ferrari Daytona SP3', 'Technik').
+set_themenwelt('Titanic', 'Creator').
 set_themenwelt('Avengers Tower', 'Marvel').
+
+% --- Lego Set Preisbereiche (set_preisbereich/2) ---
+set_preisbereich('Abenteuer - Wohnmobil', preisbereich(20,50)).
+set_preisbereich('Mein erster Bauernhof', preisbereich(20,50)).
+set_preisbereich('3-in-1-Zauberschloss', preisbereich(20,50)).
+set_preisbereich('Grosse interaktive Eisenbahn', preisbereich(51,200)).
+set_preisbereich('Spinjitzu-Tempel der Ninja', preisbereich(20,50)).
+set_preisbereich('Kreativer Reisekoffer', preisbereich(20,50)).
+set_preisbereich('Minecraft Mini-Höhle', preisbereich(20,50)).
+set_preisbereich('Donut Truck', preisbereich(51,200)).
+set_preisbereich('Paisleys Haus', preisbereich(51,200)).
+set_preisbereich('Bunte Bausteine-Box', preisbereich(51,200)).
+set_preisbereich('Bunte Bausteine-Box', preisbereich(20,50)). % Mehrfachdefinition, prüfen
+set_preisbereich('Lloyds und Arins Training-Mechs', preisbereich(51,200)).
+set_preisbereich('Obi-Wan Kenobis Jedi Startfighter', preisbereich(20,50)).
+set_preisbereich('Geschäft für Haustierzubehör', preisbereich(20,50)).
+set_preisbereich('Wilde Tiere: Pandafamilie', preisbereich(51,200)).
+set_preisbereich('Ultimatives Abenteuerschloss', preisbereich(51,200)).
+set_preisbereich('Schloss Hogwarts: Die Grosse Halle', preisbereich(201,500)).
+set_preisbereich('New York City', preisbereich(20,50)).
+set_preisbereich('New York City', preisbereich(51,200)). % Mehrfachdefinition, prüfen
+set_preisbereich('Darth Mauls Sith Infiltrator', preisbereich(51,200)).
+set_preisbereich('Trevi-Brunnen', preisbereich(201,500)).
+set_preisbereich('Trevi-Brunnen', preisbereich(51,200)). % Mehrfachdefinition, prüfen
+set_preisbereich('Wilde Tiere: Rosa Flamingo', preisbereich(20,50)).
+set_preisbereich('Fast and Furious Toyota Supra MK4', preisbereich(51,200)).
+set_preisbereich('R2-D2', preisbereich(51,200)).
+set_preisbereich('MARVEL Logo & Minifiguren', preisbereich(201,500)).
+set_preisbereich('MARVEL Logo & Minifiguren', preisbereich(51,200)). % Mehrfachdefinition, prüfen
+set_preisbereich('London', preisbereich(20,50)).
+set_preisbereich('NINJAGO City Werkstätten', preisbereich(201,500)).
+set_preisbereich('Darth Vader Helm', preisbereich(51,200)).
+set_preisbereich('Invisible Hand', preisbereich(51,200)).
+set_preisbereich('Die Werkbank', preisbereich(51,200)).
+set_preisbereich('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern', preisbereich(201,500)).
+set_preisbereich('Der Sprechende Hut', preisbereich(51,200)).
+set_preisbereich('Ducati Panigale V4 S Motorrad', preisbereich(51,200)).
+set_preisbereich('McLaren P1', preisbereich(201,500)).
+set_preisbereich('X-Men: X-Mansion', preisbereich(201,500)).
+set_preisbereich('Schloss Hogwarts', preisbereich(501,1000)).
+set_preisbereich('Die Milchstrassen-Galaxie', preisbereich(51,200)).
+set_preisbereich('Schloss Hogwarts mit Schlossgelände', preisbereich(51,200)).
+set_preisbereich('Ferrari Daytona SP3', preisbereich(201,500)).
+set_preisbereich('Titanic', preisbereich(501,1000)).
 set_preisbereich('Avengers Tower', preisbereich(501,1000)).
+
+% --- Lego Set Kompatibilität (set_kompatibel/2) ---
+set_kompatibel('Abenteuer - Wohnmobil', true).
+set_kompatibel('Mein erster Bauernhof', true).
+set_kompatibel('3-in-1-Zauberschloss', false).
+set_kompatibel('Grosse interaktive Eisenbahn', true).
+set_kompatibel('Spinjitzu-Tempel der Ninja', true).
+set_kompatibel('Kreativer Reisekoffer', true).
+set_kompatibel('Minecraft Mini-Höhle', true).
+set_kompatibel('Donut Truck', true).
+set_kompatibel('Paisleys Haus', true).
+set_kompatibel('Bunte Bausteine-Box', true).
+set_kompatibel('Lloyds und Arins Training-Mechs', true).
+set_kompatibel('Obi-Wan Kenobis Jedi Startfighter', true).
+set_kompatibel('Geschäft für Haustierzubehör', true).
+set_kompatibel('Wilde Tiere: Pandafamilie', true).
+set_kompatibel('Ultimatives Abenteuerschloss', true).
+set_kompatibel('Schloss Hogwarts: Die Grosse Halle', true).
+set_kompatibel('New York City', true).
+set_kompatibel('New York City', false). % Mehrfachdefinition, prüfen
+set_kompatibel('Darth Mauls Sith Infiltrator', true).
+set_kompatibel('Trevi-Brunnen', true).
+set_kompatibel('Trevi-Brunnen', false). % Mehrfachdefinition, prüfen
+set_kompatibel('Wilde Tiere: Rosa Flamingo', true).
+set_kompatibel('Fast and Furious Toyota Supra MK4', true).
+set_kompatibel('R2-D2', true).
+set_kompatibel('MARVEL Logo & Minifiguren', false).
+set_kompatibel('London', false).
+set_kompatibel('NINJAGO City Werkstätten', false).
+set_kompatibel('Darth Vader Helm', false).
+set_kompatibel('Invisible Hand', true).
+set_kompatibel('Die Werkbank', true).
+set_kompatibel('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern', false).
+set_kompatibel('Der Sprechende Hut', false).
+set_kompatibel('Ducati Panigale V4 S Motorrad', false).
+set_kompatibel('McLaren P1', false).
+set_kompatibel('X-Men: X-Mansion', true).
+set_kompatibel('Schloss Hogwarts', false).
+set_kompatibel('Die Milchstrassen-Galaxie', false).
+set_kompatibel('Schloss Hogwarts mit Schlossgelände', false).
+set_kompatibel('Ferrari Daytona SP3', false).
+set_kompatibel('Titanic', false).
 set_kompatibel('Avengers Tower', true).
+
+% --- Lego Set Schwierigkeitsgrade (set_schwierigkeit/2) ---
+set_schwierigkeit('Abenteuer - Wohnmobil', 'Einfach').
+set_schwierigkeit('Mein erster Bauernhof', 'Einfach').
+set_schwierigkeit('3-in-1-Zauberschloss', 'Einfach').
+set_schwierigkeit('Grosse interaktive Eisenbahn', 'Einfach').
+set_schwierigkeit('Spinjitzu-Tempel der Ninja', ['Einfach','Mittel']).
+set_schwierigkeit('Kreativer Reisekoffer', 'Einfach').
+set_schwierigkeit('Minecraft Mini-Höhle', 'Einfach').
+set_schwierigkeit('Donut Truck', 'Einfach').
+set_schwierigkeit('Paisleys Haus', 'Einfach').
+set_schwierigkeit('Bunte Bausteine-Box', 'Einfach').
+set_schwierigkeit('Lloyds und Arins Training-Mechs', ['Einfach','Mittel']).
+set_schwierigkeit('Obi-Wan Kenobis Jedi Startfighter', 'Einfach').
+set_schwierigkeit('Geschäft für Haustierzubehör', 'Einfach').
+set_schwierigkeit('Wilde Tiere: Pandafamilie', 'Mittel').
+set_schwierigkeit('Ultimatives Abenteuerschloss', 'Mittel').
+set_schwierigkeit('Schloss Hogwarts: Die Grosse Halle', 'Schwer').
+set_schwierigkeit('Schloss Hogwarts: Die Grosse Halle', 'Mittel'). % Mehrfachdefinition, prüfen
+set_schwierigkeit('New York City', 'Schwer').
+set_schwierigkeit('New York City', 'Mittel'). % Mehrfachdefinition, prüfen
+set_schwierigkeit('Darth Mauls Sith Infiltrator', ['Einfach','Mittel']).
+set_schwierigkeit('Trevi-Brunnen', 'Einfach').
+set_schwierigkeit('Trevi-Brunnen', 'Mittel'). % Mehrfachdefinition, prüfen
+set_schwierigkeit('Wilde Tiere: Rosa Flamingo', 'Einfach').
+set_schwierigkeit('Fast and Furious Toyota Supra MK4', 'Einfach').
+set_schwierigkeit('R2-D2', 'Einfach').
+set_schwierigkeit('MARVEL Logo & Minifiguren', 'Mittel').
+set_schwierigkeit('London', 'Einfach').
+set_schwierigkeit('NINJAGO City Werkstätten', 'Schwer').
+set_schwierigkeit('Darth Vader Helm', 'Einfach').
+set_schwierigkeit('Invisible Hand', 'Mittel').
+set_schwierigkeit('Die Werkbank', 'Mittel').
+set_schwierigkeit('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern', 'Mittel').
+set_schwierigkeit('Der Sprechende Hut', 'Mittel').
+set_schwierigkeit('Ducati Panigale V4 S Motorrad', 'Mittel').
+set_schwierigkeit('McLaren P1', 'Schwer').
+set_schwierigkeit('X-Men: X-Mansion', 'Schwer').
+set_schwierigkeit('Schloss Hogwarts', 'Schwer').
+set_schwierigkeit('Die Milchstrassen-Galaxie', 'Mittel').
+set_schwierigkeit('Schloss Hogwarts mit Schlossgelände', 'Mittel').
+set_schwierigkeit('Ferrari Daytona SP3', 'Schwer').
+set_schwierigkeit('Titanic', 'Schwer').
 set_schwierigkeit('Avengers Tower', 'Schwer').
 
 % --- Hilfsprädikate für Matching (wenn Fakten Listen enthalten) ---
