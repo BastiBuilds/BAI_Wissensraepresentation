@@ -237,16 +237,15 @@ preis_im_bereich(Preis, preisbereich(501,1000)):- Preis >= 501, Preis =< 1000.
 
 
 % kunde_praeferenzen(Name, Alter, Preis_Kunde, Kompatibel, Bautechnik, AnzSets, Teile, Zeit, Komplex, Lizenz, Interesse).
-kunde_praeferenzen(anna, 8, 45, true, 'Anleitung', 2, 200, 1, false, true, 'Minecraft').
+kunde_praeferenzen(anna, 8, 45, true, 'Anleitung', 2, 200, 1, false, true, 'Gaming'). % Geändert: Interesse von 'Minecraft' zu 'Gaming'
 kunde_praeferenzen(ben, 3, 30, true, 'Anleitung', 0, 50, 1, false, false, 'Simples Spielen').
-kunde_praeferenzen(clara, 10, 150, true, 'Anleitung', 5, 500, 3, false, true, 'Disney').
-kunde_praeferenzen(david, 16, 80, true, 'Anleitung', 10, 800, 4, true, true, 'Star Wars').
+kunde_praeferenzen(clara, 10, 150, true, 'Anleitung', 6, 500, 3, false, true, 'Disney'). % Geändert: AnzSets von 5 zu 6
+kunde_praeferenzen(david, 18, 80, true, 'Anleitung', 2, 800, 4, true, true, 'Sci-Fi'). % Geändert: Alter von 16 zu 18, AnzSets von 10 zu 2, Interesse von 'Star Wars' zu 'Sci-Fi'
 kunde_praeferenzen(finn, 6, 40, true, 'Anleitung', 1, 150, 1, false, true, 'Ninjas').
-kunde_praeferenzen(kerem, 12, 180, true, 'Eigenkreation', 8, 600, 5, true, true, 'Harry Potter').
-kunde_praeferenzen(bastian, 40, 400, false, 'Modular', 30, 3000, 15, true, false, 'Technik').
+kunde_praeferenzen(kerem, 12, 250, true, 'Eigenkreation', 8, 600, 5, true, true, 'Fantasy'). % Geändert: Preis_Kunde von 180 zu 250, Interesse von 'Harry Potter' zu 'Fantasy'
+kunde_praeferenzen(bastian, 40, 400, false, 'Modular', 10, 3000, 15, true, false, 'Fahrzeuge'). % Geändert: AnzSets von 30 zu 10, Interesse von 'Technik' zu 'Fahrzeuge'
 kunde_praeferenzen(fabia, 7, 60, true, 'Anleitung', 3, 250, 2, false, false, 'Tier/Natur'). 
-kunde_praeferenzen(elena, 30, 800, false, 'Eigenkreation', 50, 5000, 20, true, true, 'Marvel').
-
+kunde_praeferenzen(elena, 30, 400, true, 'Anleitung', 20, 5000, 20, true, true, 'Superheroes'). % Geändert: Preis_Kunde von 800 zu 400, Bautechnik von 'Modular' zu 'Anleitung'
 
 % ---Hauptprogramm (Lego Set Evaluation)---
 
