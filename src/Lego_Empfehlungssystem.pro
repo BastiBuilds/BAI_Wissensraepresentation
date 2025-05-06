@@ -228,6 +228,26 @@ themenwelt_empfehlung('Simples Spielen', _, 'Classic').
 empfehle_themenwelt(Interesse, Lizenz, Empfohlen) :-
     themenwelt_empfehlung(Interesse, Lizenz, Empfohlen).
 
+
+% Preisbereich Definition
+preis_im_bereich(Preis, preisbereich(20,50))   :- Preis >= 20,  Preis =< 50.
+preis_im_bereich(Preis, preisbereich(51,200))  :- Preis >= 51,  Preis =< 200.
+preis_im_bereich(Preis, preisbereich(201,500)) :- Preis >= 201, Preis =< 500.
+preis_im_bereich(Preis, preisbereich(501,1000)):- Preis >= 501, Preis =< 1000.
+
+
+% kunde_praeferenzen(Name, Alter, Preis_Kunde, Kompatibel, Bautechnik, AnzSets, Teile, Zeit, Komplex, Lizenz, Interesse).
+kunde_praeferenzen(anna, 8, 45, true, 'Anleitung', 2, 200, 1, false, true, 'Minecraft').
+kunde_praeferenzen(ben, 3, 30, true, 'Anleitung', 0, 50, 1, false, false, 'Simples Spielen').
+kunde_praeferenzen(clara, 10, 150, true, 'Anleitung', 5, 500, 3, false, true, 'Disney').
+kunde_praeferenzen(david, 16, 80, true, 'Anleitung', 10, 800, 4, true, true, 'Star Wars').
+kunde_praeferenzen(finn, 6, 40, true, 'Anleitung', 1, 150, 1, false, true, 'Ninjas').
+kunde_praeferenzen(kerem, 12, 180, true, 'Eigenkreation', 8, 600, 5, true, true, 'Harry Potter').
+kunde_praeferenzen(bastian, 40, 400, false, 'Modular', 30, 3000, 15, true, false, 'Technik').
+kunde_praeferenzen(fabia, 7, 60, true, 'Anleitung', 3, 250, 2, false, false, 'Tier/Natur'). 
+kunde_praeferenzen(elena, 30, 800, false, 'Eigenkreation', 50, 5000, 20, true, true, 'Marvel').
+
+
 % ---Hauptprogramm (Lego Set Evaluation)---
 
 % --- Definition der Lego Sets und ihrer Eigenschaften ---
@@ -576,11 +596,10 @@ set_schwierigkeit_match(Set, GesuchterSchwierigkeitsgrad) :-
     ;   SchwierigkeitFakt == GesuchterSchwierigkeitsgrad
     ).
 
-
-preis_im_bereich(Preis, preisbereich(20,50))   :- Preis >= 20,  Preis =< 50.
-preis_im_bereich(Preis, preisbereich(51,200))  :- Preis >= 51,  Preis =< 200.
-preis_im_bereich(Preis, preisbereich(201,500)) :- Preis >= 201, Preis =< 500.
-preis_im_bereich(Preis, preisbereich(501,1000)):- Preis >= 501, Preis =< 1000.
+% --- Empfehlungsregel basierend auf Kunde ---
+empfehle_set_fuer_kunde(Kunde, EmpfohlenesSet) :-
+    kunde_praeferenzen(Kunde, Alter, Preis_Kunde, Kompatibel, Bautechnik, AnzSets, Teile, Zeit, Komplex, Lizenz, Interesse),
+    empfehle_lego_set(Alter, Preis_Kunde, Kompatibel, Bautechnik, AnzSets, Teile, Zeit, Komplex, Lizenz, Interesse, EmpfohlenesSet).
 
 empfehle_lego_set(
     Alter, Preis_Eingabe, Kompatibel_Eingabe, Bautechnik, Anzahl_Legosets, BauteilMenge, Bauzeit,
