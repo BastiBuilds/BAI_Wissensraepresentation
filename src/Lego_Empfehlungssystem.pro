@@ -85,53 +85,53 @@ interessen('Fantasy').
 interessen('Simples Spielen').   
 
 % LEGO Sets
-lego_set('Kreativer Reisekoffer').
-lego_set('Hogwarts Express & der Bahnhof von Hogsmeade').
-lego_set('Imperialer Sternzerstörer').
-lego_set('Donut Truck').
-lego_set('Abenteuer - Wohnmobil').
-lego_set('Spinjitzu-Tempel der Ninja').
-lego_set('Hinterhalt auf Mandalore Battle Pack').
-lego_set('Ducati Panigale V4 S Motorrad').
-lego_set('Ferrari Daytona SP3').
-lego_set('NASA Artemis Startrampe').
-lego_set('Grosse interaktive Eisenbahn').
-lego_set('3-in-1-Zauberschloss').
-lego_set('Paisleys Haus').
-lego_set('Bunte Bausteine-Box').
-lego_set('Der Sprechende Hut').
-lego_set('Minecraft Mini-Höhle').
-lego_set('Mein erster Bauernhof').
-lego_set('Die Milchstrassen-Galaxie').
-lego_set('Titanic').
-lego_set('Schloss Hogwarts mit Schlossgelände').
-lego_set('McLaren P1').
-lego_set('Schloss Hogwarts').
-lego_set('Invisible Hand').
-lego_set('Die Werkbank').
-lego_set('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern').
-lego_set('Trevi-Brunnen').
-lego_set('Darth Vader Helm').
-lego_set('NINJAGO City Werkstätten').
-lego_set('MARVEL Logo & Minifiguren').
-lego_set('New York City').
-lego_set('London').
-lego_set('Schloss Hogwarts: Die Grosse Halle'). 
-lego_set('R2-D2').
-lego_set('Fast and Furious Toyota Supra MK4'). 
-lego_set('Wilde Tiere: Rosa Flamingo').
-lego_set('Wilde Tiere: Pandafamilie').
-lego_set('Ultimatives Abenteuerschloss').
-lego_set('Geschäft für Haustierzubehör').
-lego_set('Simba').
-lego_set('das Löwenjunge des Königs').
-lego_set('X-Men: X-Mansion').
-lego_set('Avengers Tower').
-lego_set('New York City').
-lego_set('Obi-Wan Kenobis Jedi Startfighter').
-lego_set('Darth Mauls Sith Infiltrator').
-lego_set('Spinjitzu-Tempel der Ninja').
-lego_set('Lloyds und Arins Training-Mechs').
+% lego_set('Kreativer Reisekoffer').
+% lego_set('Hogwarts Express & der Bahnhof von Hogsmeade').
+% lego_set('Imperialer Sternzerstörer').
+% lego_set('Donut Truck').
+% lego_set('Abenteuer - Wohnmobil').
+% lego_set('Spinjitzu-Tempel der Ninja').
+% lego_set('Hinterhalt auf Mandalore Battle Pack').
+% lego_set('Ducati Panigale V4 S Motorrad').
+% lego_set('Ferrari Daytona SP3').
+% lego_set('NASA Artemis Startrampe').
+% lego_set('Grosse interaktive Eisenbahn').
+% lego_set('3-in-1-Zauberschloss').
+% lego_set('Paisleys Haus').
+% lego_set('Bunte Bausteine-Box').
+% lego_set('Der Sprechende Hut').
+% lego_set('Minecraft Mini-Höhle').
+% lego_set('Mein erster Bauernhof').
+% lego_set('Die Milchstrassen-Galaxie').
+% lego_set('Titanic').
+% lego_set('Schloss Hogwarts mit Schlossgelände').
+% lego_set('McLaren P1').
+% lego_set('Schloss Hogwarts').
+% lego_set('Invisible Hand').
+% lego_set('Die Werkbank').
+% lego_set('Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern').
+% lego_set('Trevi-Brunnen').
+% lego_set('Darth Vader Helm').
+% lego_set('NINJAGO City Werkstätten').
+% lego_set('MARVEL Logo & Minifiguren').
+% lego_set('New York City').
+% lego_set('London').
+% lego_set('Schloss Hogwarts: Die Grosse Halle'). 
+% lego_set('R2-D2').
+% lego_set('Fast and Furious Toyota Supra MK4'). 
+% lego_set('Wilde Tiere: Rosa Flamingo').
+% lego_set('Wilde Tiere: Pandafamilie').
+% lego_set('Ultimatives Abenteuerschloss').
+% lego_set('Geschäft für Haustierzubehör').
+% lego_set('Simba').
+% lego_set('das Löwenjunge des Königs').
+% lego_set('X-Men: X-Mansion').
+% lego_set('Avengers Tower').
+% lego_set('New York City').
+% lego_set('Obi-Wan Kenobis Jedi Startfighter').
+% lego_set('Darth Mauls Sith Infiltrator').
+% lego_set('Spinjitzu-Tempel der Ninja').
+% lego_set('Lloyds und Arins Training-Mechs').
 
 % ---Entscheidungslogik ---
 
@@ -623,16 +623,16 @@ empfehle_lego_set(
     empfehle_zielgruppe(Alter, Erfahrung, Zielgruppe),
 
     erfahrung(Erfahrung),
-    schwierigkeitsgrad(Schwierigkeit),
+    schwierigkeitsgrad(Schwierigkeitsgrad),
     zielgruppe(Zielgruppe),
     themenwelt(Themenwelt),
 
     preis_im_bereich(Preis_Eingabe, Preisbereich),
 
     % Set suchen, das ALLEN abgeleiteten Kriterien entspricht
-    lego_set(Ausgabe_Set), % Wähle ein existierendes Set
-    set_zielgruppe_match(Ausgabe_Set, Zielgruppe),          % Prüfe Zielgruppe (ggf. Liste)
-    set_themenwelt(Ausgabe_Set, Themenwelt),                % Prüfe Themenwelt
-    set_preisbereich(Ausgabe_Set, Preisbereich),            % Prüfe Preisbereich
-    set_kompatibel(Ausgabe_Set, Kompatibel_Eingabe),        % Prüfe Kompatibilität
-    set_schwierigkeit_match(Ausgabe_Set, Schwierigkeitsgrad). % Prüfe Schwierigkeit (ggf. Liste)
+    lego_set(Ausgabe_Set), 
+    set_zielgruppe_match(Ausgabe_Set, Zielgruppe),          
+    set_themenwelt(Ausgabe_Set, Themenwelt),                
+    set_preisbereich(Ausgabe_Set, Preisbereich),            
+    set_kompatibel(Ausgabe_Set, Kompatibel_Eingabe),        
+    set_schwierigkeit_match(Ausgabe_Set, Schwierigkeitsgrad).
