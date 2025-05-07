@@ -6,8 +6,28 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:untitled-ontology-9="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     
 
 
@@ -111,6 +131,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#hatAlter">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
@@ -236,6 +257,229 @@
     
 
 
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Abenteuer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Abenteuer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Abenteuer_-_Wohnmobil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Abenteuer_-_Wohnmobil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Anfänger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Anfänger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erfahrung"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Anleitung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Anleitung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Bautechnik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Architektur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Architektur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Avengers_Tower -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Avengers_Tower">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Bastian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Bastian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Person"/>
+        <untitled-ontology-9:hatErfahrung rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Anfänger"/>
+        <untitled-ontology-9:hatInteresse rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Technik"/>
+        <untitled-ontology-9:hatZielgruppe rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erwachsene_-_Einsteiger"/>
+        <untitled-ontology-9:benötigtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-9:benötigtLizenz>
+        <untitled-ontology-9:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</untitled-ontology-9:hatAlter>
+        <untitled-ontology-9:hatAnzahlGebaut rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</untitled-ontology-9:hatAnzahlGebaut>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Bunte_Bausteine-Box -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Bunte_Bausteine-Box">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#City -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#City">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Classic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Classic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Creator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Creator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Darth_Mauls_Sith_Infiltrator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Darth_Mauls_Sith_Infiltrator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Darth_Vader_Helm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Darth_Vader_Helm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Der_Sprechende_Hut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Der_Sprechende_Hut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Die_Milchstrassen-Galaxie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Die_Milchstrassen-Galaxie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Die_Werkbank -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Die_Werkbank">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Disney -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Disney">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Donut_Truck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Donut_Truck">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ducati_Panigale_V4_S_Motorrad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ducati_Panigale_V4_S_Motorrad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Eigenkreation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Eigenkreation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Bautechnik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Einfach -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Einfach">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schwierigkeitsgrad"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Elena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Elena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Person"/>
+        <untitled-ontology-9:benötigtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-9:benötigtLizenz>
+        <untitled-ontology-9:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</untitled-ontology-9:hatAlter>
+        <untitled-ontology-9:hatAnzahlGebaut rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</untitled-ontology-9:hatAnzahlGebaut>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erwachsene_-_Einsteiger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erwachsene_-_Einsteiger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Zielgruppe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erwachsene_-_Expert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erwachsene_-_Expert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Zielgruppe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Expert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Expert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erfahrung"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Fabia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Fabia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Person"/>
+        <untitled-ontology-9:hatErfahrung rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Anfänger"/>
+        <untitled-ontology-9:benötigtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-9:benötigtLizenz>
+        <untitled-ontology-9:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</untitled-ontology-9:hatAlter>
+        <untitled-ontology-9:hatAnzahlGebaut rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</untitled-ontology-9:hatAnzahlGebaut>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Fahrzeuge -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Fahrzeuge">
@@ -244,13 +488,739 @@
     
 
 
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Fantasy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Fantasy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Fast_and_Furious_Toyota_Supra_MK4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Fast_and_Furious_Toyota_Supra_MK4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ferrari_Daytona_SP3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ferrari_Daytona_SP3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Fortgeschritten -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Fortgeschritten">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erfahrung"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Friends -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Friends">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Gaming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Gaming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Geschäft_für_Haustierzubehör -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Geschäft_für_Haustierzubehör">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Grosse_interaktive_Eisenbahn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Grosse_interaktive_Eisenbahn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Harry_Potter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Harry_Potter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Historische_Epochen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Historische_Epochen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Invisible_Hand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Invisible_Hand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Jugendliche_-_Einsteiger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Jugendliche_-_Einsteiger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Zielgruppe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Jugendliche_-_Fortgeschritten -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Jugendliche_-_Fortgeschritten">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Zielgruppe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kerem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kerem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Person"/>
+        <untitled-ontology-9:benötigtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-9:benötigtLizenz>
+        <untitled-ontology-9:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45</untitled-ontology-9:hatAlter>
+        <untitled-ontology-9:hatAnzahlGebaut rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45</untitled-ontology-9:hatAnzahlGebaut>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kinder_-_Einsteiger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kinder_-_Einsteiger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Zielgruppe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kinder_-_Fortgeschritten -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kinder_-_Fortgeschritten">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Zielgruppe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kleinkinder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kleinkinder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Zielgruppe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kreativer_Reisekoffer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kreativer_Reisekoffer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Lloyds_und_Arins_Training-Mechs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Lloyds_und_Arins_Training-Mechs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#London -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#London">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Marvel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Marvel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Max -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Max">
         <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Person"/>
+        <untitled-ontology-9:benötigtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</untitled-ontology-9:benötigtLizenz>
         <untitled-ontology-9:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</untitled-ontology-9:hatAlter>
         <untitled-ontology-9:hatAnzahlGebaut rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</untitled-ontology-9:hatAnzahlGebaut>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#McLaren_P1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#McLaren_P1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Mein_erster_Bauernhof -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Mein_erster_Bauernhof">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Minecraft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Minecraft">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Minecraft_Mini-Höhle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Minecraft_Mini-Höhle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Mittel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Mittel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schwierigkeitsgrad"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Modular -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Modular">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Bautechnik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#NINJAGO_City_Werkstätten -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#NINJAGO_City_Werkstätten">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#New_York_City -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#New_York_City">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ninjago -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ninjago">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ninjas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ninjas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Obi-Wan_Kenobis_Jedi_Startfighter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Obi-Wan_Kenobis_Jedi_Startfighter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Paisleys_Haus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Paisleys_Haus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#R2-D2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#R2-D2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schloss_Hogwarts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schloss_Hogwarts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schloss_Hogwarts_mit_Schlossgelände -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schloss_Hogwarts_mit_Schlossgelände">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schwer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schwer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schwierigkeitsgrad"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Sci-Fi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Sci-Fi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Simples_Spielen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Simples_Spielen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Spinjitzu-Tempel_der_Ninja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Spinjitzu-Tempel_der_Ninja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Sport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Sport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Star_Wars -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Star_Wars">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Superheroes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Superheroes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Technik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Technik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Themenwelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Titanic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Titanic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Trevi-Brunnen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Trevi-Brunnen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ultimatives_Abenteuerschloss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ultimatives_Abenteuerschloss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#3-in-1-Zauberschloss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#3-in-1-Zauberschloss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Disney_Hocus_Pocus:_Das_Hexenhaus_der_Sanderson-Schwestern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Disney_Hocus_Pocus:_Das_Hexenhaus_der_Sanderson-Schwestern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erwachsene_-_Fortgeschritten&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erwachsene_-_Fortgeschritten&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Zielgruppe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kinderserie_/_Film -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kinderserie_/_Film">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#MARVEL_Logo_&amp;_Minifiguren -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#MARVEL_Logo_&amp;_Minifiguren">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schloss_Hogwarts:_Die_Grosse_Halle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Schloss_Hogwarts:_Die_Grosse_Halle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Tier/Natur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Tier/Natur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Interesse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Wilde_Tiere:_Pandafamilie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Wilde_Tiere:_Pandafamilie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Wilde_Tiere:_Rosa_Flamingo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Wilde_Tiere:_Rosa_Flamingo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#X-Men:_X-Mansion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#X-Men:_X-Mansion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#LEGOSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/a">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Regel Zielgruppe Kinder – Einsteiger</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#hatAlter"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/a"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/a"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/a"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#hatErfahrung"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Anfänger"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#hatZielgruppe"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kinder_-_Einsteiger"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Regel Zielgruppe Kleinkinder</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#hatAlter"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/a"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/a"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#hatErfahrung"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Anfänger"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#hatZielgruppe"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Kleinkinder"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#hatErfahrung"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Erwachsene_-_Einsteiger"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#hatInteresse"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Technik"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#gehörtZuThemenwelt"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9/p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Technik"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
 </rdf:RDF>
 
 
