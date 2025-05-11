@@ -291,7 +291,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Anleitung">
         <rdf:type rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Bautechnik"/>
-        <untitled-ontology-9:hatInteresse rdf:resource="http://www.semanticweb.org/holze/ontologies/2025/4/untitled-ontology-9#Ninjas"/>
     </owl:NamedIndividual>
     
 

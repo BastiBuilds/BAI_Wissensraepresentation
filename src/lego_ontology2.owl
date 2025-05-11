@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:lego="http://www.example.org/lego-ontology#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Paisleys_Haus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Paisleys Haus</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Friends"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Grosse_interaktive_Eisenbahn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Grosse interaktive Eisenbahn</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kleinkinder"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Classic"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#New_York_City">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">New York City</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Architektur"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#ben">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:label xml:lang="de">ben</rdfs:label>
+    <lego:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</lego:hatAlter>
+    <lego:hatWunschPreis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</lego:hatWunschPreis>
+    <lego:wuenschtKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtKompatibel>
+    <lego:hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+    <lego:hatAnzahlGebauterSets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</lego:hatAnzahlGebauterSets>
+    <lego:praeferiertBauteilmenge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:praeferiertBauteilmenge>
+    <lego:praeferiertBauzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lego:praeferiertBauzeit>
+    <lego:praeferiertKomplexeBausteine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:praeferiertKomplexeBausteine>
+    <lego:wuenschtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:wuenschtLizenz>
+    <lego:hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Simples_Spielen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#X_Men:_X_Mansion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">X-Men: X-Mansion</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Marvel"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#NINJAGO_City_Werkstätten">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">NINJAGO City Werkstätten</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Ninjago"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Wilde_Tiere:_Rosa_Flamingo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Wilde Tiere: Rosa Flamingo</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Creator"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Fast_and_Furious_Toyota_Supra_MK4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Fast and Furious Toyota Supra MK4</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Technik"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#3_in_1_Zauberschloss">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">3-in-1-Zauberschloss</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kleinkinder"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Disney"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Kinder___Einsteiger">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Zielgruppe"/>
+    <rdfs:label xml:lang="de">Kinder - Einsteiger</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#david">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:label xml:lang="de">david</rdfs:label>
+    <lego:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.0</lego:hatAlter>
+    <lego:hatWunschPreis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</lego:hatWunschPreis>
+    <lego:wuenschtKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtKompatibel>
+    <lego:hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+    <lego:hatAnzahlGebauterSets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lego:hatAnzahlGebauterSets>
+    <lego:praeferiertBauteilmenge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</lego:praeferiertBauteilmenge>
+    <lego:praeferiertBauzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</lego:praeferiertBauzeit>
+    <lego:praeferiertKomplexeBausteine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:praeferiertKomplexeBausteine>
+    <lego:wuenschtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtLizenz>
+    <lego:hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Sci_Fi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#McLaren_P1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">McLaren P1</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Technik"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Lloyds_und_Arins_Training_Mechs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Lloyds und Arins Training-Mechs</rdfs:label>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Ninjago"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Darth_Vader_Helm">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Darth Vader Helm</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Star_Wars"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#finn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:label xml:lang="de">finn</rdfs:label>
+    <lego:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</lego:hatAlter>
+    <lego:hatWunschPreis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</lego:hatWunschPreis>
+    <lego:wuenschtKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtKompatibel>
+    <lego:hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+    <lego:hatAnzahlGebauterSets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lego:hatAnzahlGebauterSets>
+    <lego:praeferiertBauteilmenge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</lego:praeferiertBauteilmenge>
+    <lego:praeferiertBauzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lego:praeferiertBauzeit>
+    <lego:praeferiertKomplexeBausteine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:praeferiertKomplexeBausteine>
+    <lego:wuenschtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtLizenz>
+    <lego:hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Ninjas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Trevi_Brunnen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Trevi-Brunnen</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Einsteiger"/>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Architektur"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</lego:hatPreisMin>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</lego:hatPreisMax>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Modular">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Bautechnik"/>
+    <rdfs:label xml:lang="de">Modular</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#praeferiertKomplexeBausteine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Sport">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Sport</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Creator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdfs:label xml:lang="de">Creator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Einfach">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Schwierigkeitsgrad"/>
+    <rdfs:label xml:lang="de">Einfach</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Erwachsene___Einsteiger">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Zielgruppe"/>
+    <rdfs:label xml:lang="de">Erwachsene - Einsteiger</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Sci_Fi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Sci-Fi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Der_Sprechende_Hut">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Der Sprechende Hut</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Harry_Potter"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#R2_D2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">R2-D2</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Star_Wars"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Die_Werkbank">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Die Werkbank</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Minecraft"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#fabia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:label xml:lang="de">fabia</rdfs:label>
+    <lego:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</lego:hatAlter>
+    <lego:hatWunschPreis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</lego:hatWunschPreis>
+    <lego:wuenschtKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtKompatibel>
+    <lego:hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+    <lego:hatAnzahlGebauterSets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lego:hatAnzahlGebauterSets>
+    <lego:praeferiertBauteilmenge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</lego:praeferiertBauteilmenge>
+    <lego:praeferiertBauzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lego:praeferiertBauzeit>
+    <lego:praeferiertKomplexeBausteine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:praeferiertKomplexeBausteine>
+    <lego:wuenschtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:wuenschtLizenz>
+    <lego:hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Tier_Natur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Disney_Hocus_Pocus:_Das_Hexenhaus_der_Sanderson_Schwestern">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Disney Hocus Pocus: Das Hexenhaus der Sanderson-Schwestern</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Disney"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#hatSetEigeneZielgruppe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:range rdf:resource="http://www.example.org/lego-ontology#Zielgruppe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Fantasy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Fantasy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Ultimatives_Abenteuerschloss">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Ultimatives Abenteuerschloss</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Disney"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#wuenschtKompatibel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Architektur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Architektur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Disney">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Disney</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Superheroes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Superheroes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Obi_Wan_Kenobis_Jedi_Startfighter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Obi-Wan Kenobis Jedi Startfighter</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Star_Wars"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Bunte_Bausteine_Box">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Bunte Bausteine-Box</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Classic"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Star_Wars"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#kerem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:label xml:lang="de">kerem</rdfs:label>
+    <lego:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.0</lego:hatAlter>
+    <lego:hatWunschPreis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</lego:hatWunschPreis>
+    <lego:wuenschtKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtKompatibel>
+    <lego:hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Eigenkreation"/>
+    <lego:hatAnzahlGebauterSets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</lego:hatAnzahlGebauterSets>
+    <lego:praeferiertBauteilmenge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600</lego:praeferiertBauteilmenge>
+    <lego:praeferiertBauzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</lego:praeferiertBauzeit>
+    <lego:praeferiertKomplexeBausteine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:praeferiertKomplexeBausteine>
+    <lego:wuenschtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtLizenz>
+    <lego:hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Fantasy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#MARVEL_Logo_&amp;_Minifiguren">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">MARVEL Logo &amp; Minifiguren</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Marvel"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</lego:hatPreisMin>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</lego:hatPreisMax>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Simples_Spielen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Simples Spielen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#bastian">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:label xml:lang="de">bastian</rdfs:label>
+    <lego:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.0</lego:hatAlter>
+    <lego:hatWunschPreis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</lego:hatWunschPreis>
+    <lego:wuenschtKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:wuenschtKompatibel>
+    <lego:hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Modular"/>
+    <lego:hatAnzahlGebauterSets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</lego:hatAnzahlGebauterSets>
+    <lego:praeferiertBauteilmenge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</lego:praeferiertBauteilmenge>
+    <lego:praeferiertBauzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</lego:praeferiertBauzeit>
+    <lego:praeferiertKomplexeBausteine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:praeferiertKomplexeBausteine>
+    <lego:wuenschtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:wuenschtLizenz>
+    <lego:hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Fahrzeuge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Jugendliche___Einsteiger">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Zielgruppe"/>
+    <rdfs:label xml:lang="de">Jugendliche - Einsteiger</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Spinjitzu_Tempel_der_Ninja">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Spinjitzu-Tempel der Ninja</rdfs:label>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Ninjago"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#hatBevorzugteBautechnik">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.example.org/lego-ontology#Bautechnik"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Kreativer_Reisekoffer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Kreativer Reisekoffer</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Creator"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Friends"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Mein_erster_Bauernhof">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Mein erster Bauernhof</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kleinkinder"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Classic"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#LegoSet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Ducati_Panigale_V4_S_Motorrad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Ducati Panigale V4 S Motorrad</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Technik"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Darth_Mauls_Sith_Infiltrator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Darth Mauls Sith Infiltrator</rdfs:label>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Star_Wars"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#praeferiertBauteilmenge">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#clara">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:label xml:lang="de">clara</rdfs:label>
+    <lego:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</lego:hatAlter>
+    <lego:hatWunschPreis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</lego:hatWunschPreis>
+    <lego:wuenschtKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtKompatibel>
+    <lego:hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+    <lego:hatAnzahlGebauterSets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</lego:hatAnzahlGebauterSets>
+    <lego:praeferiertBauteilmenge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</lego:praeferiertBauteilmenge>
+    <lego:praeferiertBauzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lego:praeferiertBauzeit>
+    <lego:praeferiertKomplexeBausteine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:praeferiertKomplexeBausteine>
+    <lego:wuenschtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtLizenz>
+    <lego:hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Disney"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Titanic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Titanic</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Experte"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Creator"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Schloss_Hogwarts_mit_Schlossgelände">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Schloss Hogwarts mit Schlossgelände</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Experte"/>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Harry_Potter"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Technik">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdfs:label xml:lang="de">Technik</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Erwachsene___Expert">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Zielgruppe"/>
+    <rdfs:label xml:lang="de">Erwachsene - Expert</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Invisible_Hand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Invisible Hand</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Star_Wars"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Die_Milchstrassen_Galaxie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Die Milchstrassen-Galaxie</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Experte"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Creator"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Ferrari_Daytona_SP3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Ferrari Daytona SP3</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Experte"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Technik"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#hatPreisMin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#hatErfahrung">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.example.org/lego-ontology#Erfahrung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Fahrzeuge">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Fahrzeuge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Spinjitzu_Tempel_der_Ninja',_['Einfach">
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel']"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#istKompatibel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Themenwelt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Abenteuer___Wohnmobil">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Abenteuer - Wohnmobil</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kleinkinder"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#City"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Jugendliche___Fortgeschritten">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Zielgruppe"/>
+    <rdfs:label xml:lang="de">Jugendliche - Fortgeschritten</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Schloss_Hogwarts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Schloss Hogwarts</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Harry_Potter"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Anfänger">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Erfahrung"/>
+    <rdfs:label xml:lang="de">Anfänger</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Eigenkreation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Bautechnik"/>
+    <rdfs:label xml:lang="de">Eigenkreation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Schloss_Hogwarts:_Die_Grosse_Halle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Schloss Hogwarts: Die Grosse Halle</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Fortgeschritten"/>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Harry_Potter"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Avengers_Tower">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Avengers Tower</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Experte"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Marvel"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Anleitung">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Bautechnik"/>
+    <rdfs:label xml:lang="de">Anleitung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#elena">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:label xml:lang="de">elena</rdfs:label>
+    <lego:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</lego:hatAlter>
+    <lego:hatWunschPreis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</lego:hatWunschPreis>
+    <lego:wuenschtKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtKompatibel>
+    <lego:hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+    <lego:hatAnzahlGebauterSets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatAnzahlGebauterSets>
+    <lego:praeferiertBauteilmenge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</lego:praeferiertBauteilmenge>
+    <lego:praeferiertBauzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:praeferiertBauzeit>
+    <lego:praeferiertKomplexeBausteine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:praeferiertKomplexeBausteine>
+    <lego:wuenschtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtLizenz>
+    <lego:hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Superheroes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#wuenschtLizenz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#anna">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:label xml:lang="de">anna</rdfs:label>
+    <lego:hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</lego:hatAlter>
+    <lego:hatWunschPreis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</lego:hatWunschPreis>
+    <lego:wuenschtKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtKompatibel>
+    <lego:hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+    <lego:hatAnzahlGebauterSets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lego:hatAnzahlGebauterSets>
+    <lego:praeferiertBauteilmenge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:praeferiertBauteilmenge>
+    <lego:praeferiertBauzeit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</lego:praeferiertBauzeit>
+    <lego:praeferiertKomplexeBausteine rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:praeferiertKomplexeBausteine>
+    <lego:wuenschtLizenz rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:wuenschtLizenz>
+    <lego:hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Gaming"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Expert">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Erfahrung"/>
+    <rdfs:label xml:lang="de">Expert</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#London">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">London</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Architektur"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#City">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdfs:label xml:lang="de">City</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#hatWunschPreis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Geschäft_für_Haustierzubehör">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Geschäft für Haustierzubehör</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Friends"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#New_York_City',_['Kinder___Fortgeschritten">
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Einsteiger']"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Mittel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Schwierigkeitsgrad"/>
+    <rdfs:label xml:lang="de">Mittel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#hatAlter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#praeferiertBauzeit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Donut_Truck">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Donut Truck</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#City"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Wilde_Tiere:_Pandafamilie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Wilde Tiere: Pandafamilie</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Fortgeschritten"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Creator"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Minecraft_Mini_Höhle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:label xml:lang="de">Minecraft Mini-Höhle</rdfs:label>
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Einsteiger"/>
+    <lego:gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Minecraft"/>
+    <lego:hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</lego:hatPreisMin>
+    <lego:hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lego:hatPreisMax>
+    <lego:istKompatibel rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</lego:istKompatibel>
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Abenteuer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Abenteuer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Friends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdfs:label xml:lang="de">Friends</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Erwachsene___Fortgeschritten">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Zielgruppe"/>
+    <rdfs:label xml:lang="de">Erwachsene - Fortgeschritten</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#gehoertZuThemenwelt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:range rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#empfiehltSetFuerKunde">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Tier_Natur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Tier/Natur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Schwer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Schwierigkeitsgrad"/>
+    <rdfs:label xml:lang="de">Schwer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#hatSetSchwierigkeitsgrad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:range rdf:resource="http://www.example.org/lego-ontology#Schwierigkeitsgrad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Erfahrung">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Zielgruppe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Ninjago">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdfs:label xml:lang="de">Ninjago</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#hatKundenInteresse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Marvel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdfs:label xml:lang="de">Marvel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Classic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdfs:label xml:lang="de">Classic</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Kinderserie___Film">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Kinderserie / Film</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Fortgeschritten">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Erfahrung"/>
+    <rdfs:label xml:lang="de">Fortgeschritten</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Darth_Mauls_Sith_Infiltrator',_['Einfach">
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel']"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Ninjas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Ninjas</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#hatPreisMax">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Harry_Potter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdfs:label xml:lang="de">Harry Potter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Kleinkinder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Zielgruppe"/>
+    <rdfs:label xml:lang="de">Kleinkinder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Historische_Epochen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Historische Epochen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#hatAnzahlGebauterSets">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Star_Wars">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdfs:label xml:lang="de">Star Wars</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Minecraft">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Themenwelt"/>
+    <rdfs:label xml:lang="de">Minecraft</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Spinjitzu_Tempel_der_Ninja',_['Kleinkinder">
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Einsteiger']"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Lloyds_und_Arins_Training_Mechs',_['Kinder___Einsteiger">
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Fortgeschritten']"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Gaming">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Interesse"/>
+    <rdfs:label xml:lang="de">Gaming</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Bautechnik">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Kunde">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Kinder___Fortgeschritten">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.example.org/lego-ontology#Zielgruppe"/>
+    <rdfs:label xml:lang="de">Kinder - Fortgeschritten</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Schwierigkeitsgrad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Lloyds_und_Arins_Training_Mechs',_['Einfach">
+    <lego:hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel']"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Interesse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/lego-ontology#Darth_Mauls_Sith_Infiltrator',_['Kinder___Einsteiger">
+    <lego:hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche___Einsteiger']"/>
+  </rdf:Description>
+</rdf:RDF>
