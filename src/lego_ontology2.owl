@@ -147,7 +147,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.example.org/lego-ontology#hatAlter">
         <rdfs:domain rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
@@ -369,7 +369,6 @@
     <owl:NamedIndividual rdf:about="http://www.example.org/lego-ontology#Avengers_Tower">
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
         <gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Marvel"/>
-        <hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Experte"/>
         <hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
         <hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</hatPreisMax>
         <hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</hatPreisMin>
@@ -472,7 +471,6 @@
     <owl:NamedIndividual rdf:about="http://www.example.org/lego-ontology#Die_Milchstrassen_Galaxie">
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
         <gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Creator"/>
-        <hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Experte"/>
         <hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
         <hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</hatPreisMax>
         <hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</hatPreisMin>
@@ -588,14 +586,6 @@
     
 
 
-    <!-- http://www.example.org/lego-ontology#Erwachsene___Experte -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/lego-ontology#Erwachsene___Experte">
-        <rdf:type rdf:resource="http://www.example.org/lego-ontology#Zielgruppe"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.example.org/lego-ontology#Erwachsene___Fortgeschritten -->
 
     <owl:NamedIndividual rdf:about="http://www.example.org/lego-ontology#Erwachsene___Fortgeschritten">
@@ -652,7 +642,6 @@
     <owl:NamedIndividual rdf:about="http://www.example.org/lego-ontology#Ferrari_Daytona_SP3">
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
         <gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Technik"/>
-        <hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Experte"/>
         <hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
         <hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</hatPreisMax>
         <hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</hatPreisMin>
@@ -1065,7 +1054,6 @@
     <owl:NamedIndividual rdf:about="http://www.example.org/lego-ontology#Schloss_Hogwarts_mit_Schlossgelände">
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
         <gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Harry_Potter"/>
-        <hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Experte"/>
         <hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder___Fortgeschritten"/>
         <hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
         <hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</hatPreisMax>
@@ -1166,7 +1154,6 @@
     <owl:NamedIndividual rdf:about="http://www.example.org/lego-ontology#Titanic">
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#LegoSet"/>
         <gehoertZuThemenwelt rdf:resource="http://www.example.org/lego-ontology#Creator"/>
-        <hatSetEigeneZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene___Experte"/>
         <hatSetSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
         <hatPreisMax rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</hatPreisMax>
         <hatPreisMin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</hatPreisMin>
@@ -1303,7 +1290,7 @@
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
         <hatErfahrung rdf:resource="http://www.example.org/lego-ontology#Anfänger"/>
         <hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Simples_Spielen"/>
-        <hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</hatAlter>
+        <hatAlter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3.0</hatAlter>
         <hatAnzahlGebauterSets rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hatAnzahlGebauterSets>
         <hatWunschPreis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</hatWunschPreis>
         <praeferiertBauteilmenge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</praeferiertBauteilmenge>
@@ -1735,7 +1722,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Fortgeschritten - 5 &lt; Sets ≤ 15 + Anleitung</rdfs:comment>
-        <rdfs:label>S12</rdfs:label>
+        <rdfs:label>22</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -1842,7 +1829,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Anfänger – Bautechnik Anleitung</rdfs:comment>
-        <rdfs:label>S1</rdfs:label>
+        <rdfs:label>11</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -1925,7 +1912,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Experte – 15 &lt; Sets ≤ 25 + Eigenkreation</rdfs:comment>
-        <rdfs:label>S9</rdfs:label>
+        <rdfs:label>19</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -2032,7 +2019,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Fortgeschritten – (15 &lt; Sets ≤ 25) + Eigenkreation</rdfs:comment>
-        <rdfs:label>S4</rdfs:label>
+        <rdfs:label>14</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -2139,7 +2126,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Fortgeschritten – ≤5 Sets + Eigenkreation</rdfs:comment>
-        <rdfs:label>S5</rdfs:label>
+        <rdfs:label>15</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -2246,7 +2233,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Fortgeschritten - 5 &lt; Sets ≤ 15 + Eigenkreation</rdfs:comment>
-        <rdfs:label>S11</rdfs:label>
+        <rdfs:label>21</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -2353,7 +2340,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Fortgeschritten – ≤5 Sets + Eigenkreation</rdfs:comment>
-        <rdfs:label>S6</rdfs:label>
+        <rdfs:label>16</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -2436,7 +2423,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Experte – 15 &lt; Sets ≤ 25 + Modular</rdfs:comment>
-        <rdfs:label>S8</rdfs:label>
+        <rdfs:label>18</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -2543,7 +2530,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Fortgeschritten - 5 &lt; Sets ≤ 15 + Modular</rdfs:comment>
-        <rdfs:label>S13</rdfs:label>
+        <rdfs:label>23</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -2650,7 +2637,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Anfänger – Bautechnik Modular</rdfs:comment>
-        <rdfs:label>S2</rdfs:label>
+        <rdfs:label>12</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -2733,7 +2720,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Experte – &gt;25 Sets + alle 3 Bautechniken</rdfs:comment>
-        <rdfs:label>S10</rdfs:label>
+        <rdfs:label>20</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -2842,7 +2829,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Fortgeschritten – 5 &lt; Sets ≤ 15 + alle 3 Bautechniken</rdfs:comment>
-        <rdfs:label>S7</rdfs:label>
+        <rdfs:label>17</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -2975,7 +2962,7 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Erfahrung: Fortgeschritten – (15 &lt; Sets ≤ 25) + Anleitung</rdfs:comment>
-        <rdfs:label>S3</rdfs:label>
+        <rdfs:label>13</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
