@@ -1272,6 +1272,7 @@
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene_Fortgeschritten"/>
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Modular"/>
+        <hatBevorzugteThemenwelt rdf:resource="http://www.example.org/lego-ontology#Technik"/>
         <hatErfahrung rdf:resource="http://www.example.org/lego-ontology#Fortgeschritten"/>
         <hatGewuenschtenSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
         <hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Fahrzeuge"/>
@@ -1294,6 +1295,7 @@
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kleinkinder"/>
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+        <hatBevorzugteThemenwelt rdf:resource="http://www.example.org/lego-ontology#Classic"/>
         <hatErfahrung rdf:resource="http://www.example.org/lego-ontology#Anfänger"/>
         <hatGewuenschtenSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
         <hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Simples_Spielen"/>
@@ -1316,6 +1318,7 @@
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder_Fortgeschritten"/>
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+        <hatBevorzugteThemenwelt rdf:resource="http://www.example.org/lego-ontology#Disney"/>
         <hatErfahrung rdf:resource="http://www.example.org/lego-ontology#Fortgeschritten"/>
         <hatGewuenschtenSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
         <hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Disney"/>
@@ -1339,6 +1342,7 @@
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene_Einsteiger"/>
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche_Einsteiger"/>
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+        <hatBevorzugteThemenwelt rdf:resource="http://www.example.org/lego-ontology#Star_Wars"/>
         <hatErfahrung rdf:resource="http://www.example.org/lego-ontology#Anfänger"/>
         <hatGewuenschtenSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
         <hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Sci_Fi"/>
@@ -1361,6 +1365,7 @@
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene_Fortgeschritten"/>
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+        <hatBevorzugteThemenwelt rdf:resource="http://www.example.org/lego-ontology#Marvel"/>
         <hatErfahrung rdf:resource="http://www.example.org/lego-ontology#Fortgeschritten"/>
         <hatGewuenschtenSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Schwer"/>
         <hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Superheroes"/>
@@ -1383,6 +1388,7 @@
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder_Einsteiger"/>
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+        <hatBevorzugteThemenwelt rdf:resource="http://www.example.org/lego-ontology#Friends"/>
         <hatErfahrung rdf:resource="http://www.example.org/lego-ontology#Anfänger"/>
         <hatGewuenschtenSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
         <hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Tier_or_Natur"/>
@@ -1405,6 +1411,7 @@
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder_Einsteiger"/>
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+        <hatBevorzugteThemenwelt rdf:resource="http://www.example.org/lego-ontology#Ninjago"/>
         <hatErfahrung rdf:resource="http://www.example.org/lego-ontology#Anfänger"/>
         <hatGewuenschtenSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Einfach"/>
         <hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Ninjas"/>
@@ -1427,6 +1434,7 @@
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder_Fortgeschritten"/>
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Eigenkreation"/>
+        <hatBevorzugteThemenwelt rdf:resource="http://www.example.org/lego-ontology#Harry_Potter"/>
         <hatErfahrung rdf:resource="http://www.example.org/lego-ontology#Fortgeschritten"/>
         <hatGewuenschtenSchwierigkeitsgrad rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
         <hatKundenInteresse rdf:resource="http://www.example.org/lego-ontology#Fantasy"/>
@@ -3435,8 +3443,185 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Themenwelt: Disney - Lizenz: true -&gt; Disney</rdfs:comment>
+        <rdfs:label>41</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatKundenInteresse"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Disney"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#wuenschtLizenz"/>
+                                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteThemenwelt"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Disney"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Themenwelt: Fahrzeuge, Lizenz: false → Technik</rdfs:comment>
+        <rdfs:label>47</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatKundenInteresse"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Fahrzeuge"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#wuenschtLizenz"/>
+                                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteThemenwelt"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Technik"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Themenwelt: Fantasy, Lizenz: true → HarryPotter</rdfs:comment>
+        <rdfs:label>44</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatKundenInteresse"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Fantasy"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#wuenschtLizenz"/>
+                                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteThemenwelt"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Harry_Potter"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Themenwelt: Gaming – Lizenz: true -&gt; Minecraft</rdfs:comment>
-        <rdfs:label>1</rdfs:label>
+        <rdfs:label>39</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -3494,8 +3679,113 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Themenwelt: Ninjas, Lizenz egal → Ninjago</rdfs:comment>
+        <rdfs:label>43</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatKundenInteresse"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Ninjas"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteThemenwelt"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Ninjago"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Themenwelt: SciFi, Lizenz: true -&gt; StarWars</rdfs:comment>
+        <rdfs:label>42</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatKundenInteresse"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Sci_Fi"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#wuenschtLizenz"/>
+                                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteThemenwelt"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Star_Wars"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Themenwelt: Simples Spielen - Lizenz: egal -&gt; Classic</rdfs:comment>
-        <rdfs:label>2</rdfs:label>
+        <rdfs:label>40</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -3532,6 +3822,124 @@
                         <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteThemenwelt"/>
                         <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
                         <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Classic"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Themenwelt: Superheroes, Lizenz: true → Marvel</rdfs:comment>
+        <rdfs:label>46</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatKundenInteresse"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Superheroes"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#wuenschtLizenz"/>
+                                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteThemenwelt"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Marvel"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Themenwelt: TierNatur, Lizenz: false → Friends</rdfs:comment>
+        <rdfs:label>45</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatKundenInteresse"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Tier_or_Natur"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#wuenschtLizenz"/>
+                                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteThemenwelt"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Friends"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -3994,6 +4402,115 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Erfahrung: Experte – &gt;25 Sets + alle 3 Bautechniken</rdfs:comment>
+        <rdfs:label>20</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatAnzahlGebauterSets"/>
+                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#anz"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.example.org/lego-ontology#anz"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteBautechnik"/>
+                                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteBautechnik"/>
+                                                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Modular"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteBautechnik"/>
+                                                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                                                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Eigenkreation"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatErfahrung"/>
+                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
+                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Expert"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment>Schwierigkeitsgrad: Mittel - Bauteilmenge &gt;=500</rdfs:comment>
         <rdfs:label>27</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
@@ -4442,115 +4959,6 @@
                         <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatGewuenschtenSchwierigkeitsgrad"/>
                         <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
                         <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Mittel"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Erfahrung: Experte – &gt;25 Sets + alle 3 Bautechniken</rdfs:comment>
-        <rdfs:label>20</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
-                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatAnzahlGebauterSets"/>
-                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
-                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#anz"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="http://www.example.org/lego-ontology#anz"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteBautechnik"/>
-                                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
-                                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteBautechnik"/>
-                                                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
-                                                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Modular"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatBevorzugteBautechnik"/>
-                                                                <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
-                                                                <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Eigenkreation"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.example.org/lego-ontology#hatErfahrung"/>
-                        <swrl:argument1 rdf:resource="http://www.example.org/lego-ontology#k"/>
-                        <swrl:argument2 rdf:resource="http://www.example.org/lego-ontology#Expert"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
