@@ -1391,6 +1391,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.example.org/lego-ontology#fabia">
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
+        <empfiehltSetFuerKunde rdf:resource="http://www.example.org/lego-ontology#Paisleys_Haus"/>
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Kinder_Einsteiger"/>
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
         <hatBevorzugteThemenwelt rdf:resource="http://www.example.org/lego-ontology#Friends"/>
