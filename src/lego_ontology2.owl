@@ -5114,7 +5114,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>LegoSet: Fast_and_Furious_Toyota_Supra_MK4 für Bastian</rdfs:comment>
+        <rdfs:comment>LegoSet: McLaren_P1 für Bastian</rdfs:comment>
         <rdfs:label>54</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -5264,7 +5264,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>LegoSet: Mein_erster_Bauernhof für ben</rdfs:comment>
+        <rdfs:comment>LegoSet: Mein_erster_Bauernhof für Ben</rdfs:comment>
         <rdfs:label>49</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -5427,7 +5427,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>LegoSet: Ultimatives_Abenteuerschloss für clara</rdfs:comment>
+        <rdfs:comment>LegoSet: Ultimatives_Abenteuerschloss für Clara</rdfs:comment>
         <rdfs:label>50</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -5860,7 +5860,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>LegoSet: X_Men_X_Mansion für elena</rdfs:comment>
+        <rdfs:comment>LegoSet: X_Men_X_Mansion für Elena</rdfs:comment>
         <rdfs:label>56</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -6023,7 +6023,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>LegoSet: Paisleys_Haus für fabia</rdfs:comment>
+        <rdfs:comment>LegoSet: Paisleys_Haus für Fabia</rdfs:comment>
         <rdfs:label>55</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
