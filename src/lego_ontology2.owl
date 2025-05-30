@@ -1345,7 +1345,6 @@
         <rdf:type rdf:resource="http://www.example.org/lego-ontology#Kunde"/>
         <empfiehltSetFuerKunde rdf:resource="http://www.example.org/lego-ontology#Darth_Mauls_Sith_Infiltrator"/>
         <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Erwachsene_Einsteiger"/>
-        <hatAbgeleiteteZielgruppe rdf:resource="http://www.example.org/lego-ontology#Jugendliche_Einsteiger"/>
         <hatBevorzugteBautechnik rdf:resource="http://www.example.org/lego-ontology#Anleitung"/>
         <hatBevorzugteThemenwelt rdf:resource="http://www.example.org/lego-ontology#Star_Wars"/>
         <hatErfahrung rdf:resource="http://www.example.org/lego-ontology#Anfänger"/>
@@ -2454,7 +2453,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Zielgruppe: Jugendliche-Einsteiger – 12 &lt; Alter ≤ 18, Erfahrung = Anfänger</rdfs:comment>
+        <rdfs:comment>Zielgruppe: Jugendliche-Einsteiger – 12 &lt; Alter &lt; 18, Erfahrung = Anfänger</rdfs:comment>
         <rdfs:label>34</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -2506,7 +2505,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
                                                 <swrl:arguments>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
@@ -2644,7 +2643,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Zielgruppe: Kinder-Einsteiger – Alter 4 ≤ Alter ≤ 12, Erfahrung = Anfänger</rdfs:comment>
+        <rdfs:comment>Zielgruppe: Kinder-Einsteiger – Alter 4 ≤ Alter &lt; 12, Erfahrung = Anfänger</rdfs:comment>
         <rdfs:label>32</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -2696,7 +2695,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
                                                 <swrl:arguments>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
@@ -2751,7 +2750,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Zielgruppe: Jugendliche-Fortgeschritten – 12 &lt; Alter ≤ 18, Erfahrung = Experte</rdfs:comment>
+        <rdfs:comment>Zielgruppe: Jugendliche-Fortgeschritten – 12 &lt; Alter &lt; 18, Erfahrung = Experte</rdfs:comment>
         <rdfs:label>35.2</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -2803,7 +2802,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
                                                 <swrl:arguments>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
@@ -2941,7 +2940,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Zielgruppe: Kinder-Fortgeschritten – Alter 4 ≤ Alter ≤ 12, Erfahrung = Experte</rdfs:comment>
+        <rdfs:comment>Zielgruppe: Kinder-Fortgeschritten – Alter 4 ≤ Alter &lt; 12, Erfahrung = Experte</rdfs:comment>
         <rdfs:label>33.2</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -2993,7 +2992,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
                                                 <swrl:arguments>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
@@ -3048,7 +3047,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Zielgruppe: Jugendliche-Fortgeschritten – 12 &lt; Alter ≤ 18, Erfahrung = Fortgeschritten</rdfs:comment>
+        <rdfs:comment>Zielgruppe: Jugendliche-Fortgeschritten – 12 &lt; Alter &lt; 18, Erfahrung = Fortgeschritten</rdfs:comment>
         <rdfs:label>35.1</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -3100,7 +3099,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
                                                 <swrl:arguments>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
@@ -3238,7 +3237,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Zielgruppe: Kinder-Fortgeschritten – Alter 4 ≤ Alter ≤ 12, Erfahrung = Fortgeschritten</rdfs:comment>
+        <rdfs:comment>Zielgruppe: Kinder-Fortgeschritten – Alter 4 ≤ Alter &lt; 12, Erfahrung = Fortgeschritten</rdfs:comment>
         <rdfs:label>33.1</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -3290,7 +3289,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
                                                 <swrl:arguments>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
