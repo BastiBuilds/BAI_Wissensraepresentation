@@ -483,7 +483,7 @@ empfehle_set_fuer_kunde(Kunde, EmpfohlenesSet) :-
 empfehle_lego_set(
     Alter, Preis_Eingabe, Kompatibel_Eingabe, Bautechnik, Anzahl_Legosets, BauteilMenge, Bauzeit,
     KomplexeBausteine, Lizenz, Interesse, Ausgabe_Set
-    ) :-
+    ) :-   
 
     alter(Alter),
     kompatibel(Kompatibel_Eingabe),
